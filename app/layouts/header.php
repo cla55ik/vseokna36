@@ -10,10 +10,10 @@
     <link rel="stylesheet" type="text/css" href="/src/css/style.css">
     <!--Подключаем Шрифт-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!--  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> -->
     <!--jquery-->
     <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
-    <script src="/src/js/main.js"></script>
+    <script src="/src/js/main.js" defer></script>
     <!-- favicon -->
     <link type="image/x-icon" rel="shortcut icon" href="/src/img/favicon.svg">
 
