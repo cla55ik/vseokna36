@@ -5,7 +5,7 @@
   font-display: swap;
   src: local('Montserrat Regular'), local('Montserrat-Regular'),
        url('/src/fonts/Montserrat-Regular.ttf') format('ttf'),
-       
+
 }
 
 
@@ -28,6 +28,96 @@ a{
 a:hover{
   text-decoration: none;
   color: inherit;
+}
+
+.mt-40{
+  margin-top: 40px;
+}
+
+.mb-40{
+  margin-bottom: 40px;
+}
+
+
+.mt-50{
+  margin-top: 50px;
+}
+
+.mb-50{
+  margin-bottom: 50px;
+}
+
+.mt-70{
+  margin-top: 70px;
+}
+
+.mb-70{
+  margin-bottom: 70px;
+}
+
+.mt-90{
+  margin-top: 90px;
+}
+
+.mb-90{
+  margin-bottom: 90px;
+}
+
+.mt-100{
+  margin-top: 100px;
+}
+
+.mb-100{
+  margin-bottom: 100px;
+}
+
+
+.pt-30{
+  margin-top: 30px;
+}
+
+.pb-30{
+  margin-bottom: 30px;
+}
+.pt-40{
+  margin-top: 40px;
+}
+
+.pb-40{
+  margin-bottom: 40px;
+}
+
+
+.pt-50{
+  margin-top: 50px;
+}
+
+.pb-50{
+  margin-bottom: 50px;
+}
+
+.pt-70{
+  margin-top: 70px;
+}
+
+.pb-70{
+  margin-bottom: 70px;
+}
+
+.pt-90{
+  margin-top: 90px;
+}
+
+.pb-90{
+  margin-bottom: 90px;
+}
+
+.pt-100{
+  margin-top: 100px;
+}
+
+.pb-100{
+  margin-bottom: 100px;
 }
 
 :root{
@@ -62,6 +152,10 @@ a:hover{
   background-color: var(--green);
 }
 
+.white{
+  color:#ffffff;
+}
+
 
 .btn-green{
   font-size: 20px;
@@ -86,13 +180,90 @@ a:hover{
 
 .text-14{
   font-size: 14px;
+  line-height: 1.3em
 }
 
 
 .text-16{
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.3em;
 }
+
+.text-18{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4em;
+}
+
+.text-18-32{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.7em;
+}
+
+
+.text-20{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2em;
+}
+
+.text-32{
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+
+
+
+.title-18{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.1em;
+  text-transform: uppercase;
+}
+
+.title-20{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.title-24{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+
+.title-36{
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.3em;
+  text-transform: uppercase;
+}
+
+
+.title-32{
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.title-42{
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.3em;
+  text-transform: uppercase;
+}
+
+.title-28{
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2em;
+  text-transform: uppercase;
+}
+
+
 
 .btn-round{
   font-size: 15px;
@@ -304,4 +475,84 @@ a.head-phone{
 .plus{
   font-size: 65px;
   font-weight: 600;
+}
+
+.main-child div.second{
+
+}
+
+
+/*Партнер Rehau*/
+
+.auth-partner .text-18-32{
+  padding: 45px 65px 45px 45px;
+}
+
+/*Преимущества*/
+
+div.card-item-round{
+  width: 15%;
+  max-width: 15%;
+}
+
+
+/*Виды услуг*/
+.services-logo img{
+  width: 50%;
+  margin-bottom: -190px;
+  z-index: 1;
+}
+
+.services div.wrapper{
+  background-color: #fff;
+  border-top: 1px solid #e1e1e1;
+  z-index: 2;
+}
+
+.services-card-okna{
+
+  background-image: url(/src/img/service-okna.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.services-card-balkon{
+
+  background-image: url(/src/img/service-balkon.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.services-card-house{
+
+  background-image: url(/src/img/service-house.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.services-card-child{
+
+  background-image: url(/src/img/service-child.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+.services-white a{
+  padding:12px 24px;
+  background-color: #FFFFFFED;
+  border-radius: 0;
+  box-shadow: 2px 2px 4px 0px rgb(0 0 0 / 50%);
+
+}
+
+.services-card{
+  height: 400px;
+  width: 23%;
+  padding: 25px;
+  box-shadow: 2px 2px 4px 0px rgb(91 66 66 / 37%)
 }
