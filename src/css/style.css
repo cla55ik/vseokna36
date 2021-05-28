@@ -18,6 +18,11 @@ body {
 }
 
 
+img, svg{
+  font-size: 6px;
+  line-height: 1em;
+}
+
 
 
 a{
@@ -28,6 +33,23 @@ a{
 a:hover{
   text-decoration: none;
   color: inherit;
+}
+
+.mt-20{
+  margin-top: 20px;
+}
+
+.mb-20{
+  margin-bottom: 20px;
+}
+
+
+.mt-30{
+  margin-top: 30px;
+}
+
+.mb-30{
+  margin-bottom: 30px;
 }
 
 .mt-40{
@@ -73,51 +95,51 @@ a:hover{
 
 
 .pt-30{
-  margin-top: 30px;
+  padding-top: 30px;
 }
 
 .pb-30{
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 .pt-40{
-  margin-top: 40px;
+  padding-top: 40px;
 }
 
 .pb-40{
-  margin-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 
 .pt-50{
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .pb-50{
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .pt-70{
-  margin-top: 70px;
+  padding-top: 70px;
 }
 
 .pb-70{
-  margin-bottom: 70px;
+  padding-bottom: 70px;
 }
 
 .pt-90{
-  margin-top: 90px;
+  padding-top: 90px;
 }
 
 .pb-90{
-  margin-bottom: 90px;
+  padding-bottom: 90px;
 }
 
 .pt-100{
-  margin-top: 100px;
+  padding-top: 100px;
 }
 
 .pb-100{
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 :root{
@@ -499,7 +521,7 @@ div.card-item-round{
 /*Виды услуг*/
 .services-logo img{
   width: 50%;
-  margin-bottom: -190px;
+
   z-index: 1;
 }
 
@@ -555,4 +577,13 @@ div.card-item-round{
   width: 23%;
   padding: 25px;
   box-shadow: 2px 2px 4px 0px rgb(91 66 66 / 37%)
+}
+
+
+.services-white span.gray.text-uppercase{
+  line-height: 1.1em;
+}
+
+.services-white img {
+  margin-right: 15px;
 }

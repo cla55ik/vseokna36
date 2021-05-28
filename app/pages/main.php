@@ -14,7 +14,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
           <span class="pink text-uppercase d-block">Rehau</span>
           <span class="gray second d-block">от завода в Воронеже</span>
         </h1>
-        <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/cta30.php"); ?>
+        <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/form-cta30.php"); ?>
       </div>
     </div>
   </div>
@@ -105,7 +105,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
       </div>
     </div>
   </div>
-  <div class="container services">
+  <div class="container services mt-70">
     <div class="row services-logo">
       <img src="/src/img/salon-logo-text.svg" alt="салон окон рехау">
     </div>
@@ -113,4 +113,14 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
 
 
   </div>
+  <div class="container-fluid bg-light mt-100 mb-100 pt-70 pb-70">
+    <div class="container">
+      <h2 class="title-42 text-center gray">ПРОФИЛЬНЫЕ СИСТЕМЫ REHAU</h2>
+      <p class="text-center gray mt-20">Оконные профили REHAU прошли десятилетия испытаний во всех климатических условиях и пригодны к эксплуатации даже в самой экстремальной среде. Поверхность профиля не теряет цвет со временем. Оконные системы из профилей REHAU изготавливаются по принципу конструктора, что позволяет создавать действительно индивидуальные решения, отвечающие по своим характеристикам требованиям клиента.</p>
+    </div>
+    <div class="container mt-40">
+      <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/green-cta-section.php"); ?>
+    </div>
+  </div>
+
 </main>

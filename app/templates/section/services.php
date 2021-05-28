@@ -1,4 +1,4 @@
-<div class="row wrapper pt-100 justify-content-between">
+<div class="row wrapper pt-70 justify-content-between">
   <div class="services-card-okna services-card d-flex justify-content-center align-items-end align-content-end">
     <div class="d-flex services-white">
       <a href="#">
