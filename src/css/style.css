@@ -15,6 +15,11 @@
 
 body {
   font-family: 'Montserrat', sans-serif !important;
+    color: #4f4f4f;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, span, div{
+  color: #4f4f4f;
 }
 
 
@@ -194,6 +199,12 @@ a:hover{
   background-color: var(--pink);
 }
 
+.text-10{
+  font-size: 10px;
+  font-weight: 400;
+}
+
+
 .text-12{
   font-size: 12px;
   font-weight: 400;
@@ -244,6 +255,12 @@ a:hover{
   font-weight: 600;
   line-height: 1.1em;
   text-transform: uppercase;
+}
+
+.title-18-cc{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.1em;
 }
 
 .title-20{
@@ -519,6 +536,15 @@ div.card-item-round{
 
 
 /*Виды услуг*/
+
+.services-white img{
+  width: auto;
+/* margin-right: 10px !important; */
+  height: 45px;
+}
+
+
+
 .services-logo img{
   width: 50%;
 
@@ -586,4 +612,103 @@ div.card-item-round{
 
 .services-white img {
   margin-right: 15px;
+}
+
+
+/*Наши работы*/
+
+.our-works h3{
+  background-color: #fff;
+  padding:30px 0 30px 20px;
+  margin: 0 0 0 -15px;
+}
+
+.our-works{
+  border: 15px solid var(--green);
+  margin: 10px;
+  padding: 50px 0;
+}
+
+.foto-works img{
+  object-fit: cover;
+  height: 265px;
+  width: 100%;
+}
+
+.foto-works{
+  margin: 10px;
+}
+
+
+/*Калькулятор*/
+
+.calculator-img{
+  border: 15px solid var(--green);
+}
+
+.calculator-img img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+
+button.prev, button.next {
+  font-size: 16px;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+button.prev:hover {
+
+  background-color: #e4e4e4;
+
+}
+
+button.next:hover {
+
+  background-color: #e4e4e4;
+
+}
+
+
+button.prev {
+  color: var(--gray);
+  border-color: var(--gray);
+}
+button.next {
+  color: var(--green);
+  border-color: var(--green);
+}
+
+
+
+
+.quiz-wrapper .d-flex{
+  width: 60%;
+}
+
+
+.quiz-img img {
+  width: 80px;
+  height: auto;
+  object-fit: contain;
+}
+
+.quiz-img > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+.quiz-img > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+.quiz-img > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  border:2px solid var(--green);
+  padding:10px;
 }
