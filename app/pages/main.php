@@ -19,7 +19,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
     </div>
   </div>
 
-  <div class="row bg-light">
+  <div class="container-fluid bg-light">
     <div class="container p-0">
       <div class="container d-flex advantages p-0">
         <div class="col-lg-6 pink-advantage">
@@ -35,7 +35,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
       </div>
     </div>
   </div>
-  <div class="row bg-light">
+  <div class="container-fluid bg-light">
     <div class="container p-0">
       <div class="container d-flex bg-light main-child p-0">
 
@@ -184,7 +184,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
 
   <!-- Мобильный офис -->
   <div class="mob-office container-fluid p-0 mb-100">
-    <div class="row d-flex">
+    <div class="container-fluid p-0 d-flex">
       <div class="col-lg-6 mob-office-bg">
         <img src="/src/img/dogovor-doma.jpg" alt="Оформление договора на дому">
       </div>
@@ -205,47 +205,15 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
   </div>
 
   <!-- Наши работы -->
+<?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/our-works.php"); ?>
 
-  <div class="container d-none d-lg-flex">
-    <div class="col-lg-3 our-works">
-      <h3 class="title-32 green">Наши<br />работы</h3>
-    </div>
-    <div class="foto-works col-lg-5">
-      <img src="/src/img/foto-rabot-01.jpg" alt="Остекление частного дома" loading="lazy">
-    </div>
-    <div class="foto-works col-lg-4">
-      <img src="/src/img/foto-rabot-02.jpg" alt="Остекление частного дома" loading="lazy">
-    </div>
-  </div>
-  <div class="container d-none d-lg-flex">
-    <div class="foto-works col-lg-4">
-      <img src="/src/img/foto-rabot-03.jpg" alt="Остекление частного дома" loading="lazy">
-    </div>
-    <div class="foto-works col-lg-3">
-      <img src="/src/img/foto-rabot-04.jpg" alt="Остекление частного дома" loading="lazy">
-    </div>
-    <div class="foto-works col-lg-5">
-      <img src="/src/img/foto-rabot-05.jpg" alt="Остекление частного дома" loading="lazy">
-    </div>
-  </div>
-  <div class="container d-none d-lg-flex">
-    <div class="foto-works col-lg-3">
-      <img src="/src/img/foto-rabot-06.jpg" alt="Остекление частного дома" loading="lazy">
-    </div>
-    <div class="foto-works col-lg-3">
-      <img src="/src/img/foto-rabot-07.jpg" alt="Остекление частного дома" loading="lazy">
-    </div>
-    <div class="foto-works col-lg-3">
-      <img src="/src/img/foto-rabot-08.jpg" alt="Остекление частного дома" loading="lazy">
-    </div>
-    <div class="foto-works col-lg-3">
-      <img src="/src/img/foto-rabot-09.jpg" alt="Остекление частного дома" loading="lazy">
-    </div>
-  </div>
   <!-- Отзывы -->
   <!-- Дистанционный замер -->
+<?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/distantion.php"); ?>
 
 
+
+<!---->
   <div class="container d-flex pt-100">
     <div class="col-lg-8 quiz-wrapper" id="calculator">
       <div class="" v-show="stepIndex===0">
