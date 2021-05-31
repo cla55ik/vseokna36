@@ -40,6 +40,18 @@ a:hover{
   color: inherit;
 }
 
+
+.pr-50{
+  padding-right: 50px;
+
+}
+
+.pl-50{
+  padding-left: 50px;
+}
+
+
+
 .mt-20{
   margin-top: 20px;
 }
@@ -832,10 +844,22 @@ button.btn-border{
 input[type="text\ w-100"] {
   width: 100%;
   background-color: #FFFFFF99;
-    border-color: #FFFFFF9E;
-    border-width: 1px 0 0;
-    border-radius: 0;
-    line-height: 1.4;
-    font-size: 16px;
-    padding:10px;
+  border-color: #FFFFFF9E;
+  border-width: 1px 0 0;
+  border-radius: 0;
+  line-height: 1.4;
+  font-size: 16px;
+  padding:10px;
+}
+
+
+
+
+/*СМС купон*/
+
+.sms-form-wrapper input.w-100 {
+  background-color: #fff;
+  border-width: 0 0 1px;
+  border-radius: 0;
+  padding: 10px;
 }

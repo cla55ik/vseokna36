@@ -153,6 +153,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
   <!-- Акции -->
 
   <!-- СМС купон -->
+  <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/sms-coupone.php"); ?>
 
   <!-- Сертификаты -->
   <div class="container-fluid bg-light pb-100 pt-100">
