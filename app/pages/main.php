@@ -149,14 +149,60 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
   </div>
 
   <!-- Замер -->
-
+    <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/zamer.php"); ?>
   <!-- Акции -->
 
   <!-- СМС купон -->
 
   <!-- Сертификаты -->
+  <div class="container-fluid bg-light pb-100 pt-100">
+    <div class="container">
+      <h2 class="gray title-36">ПРОДУКЦИЯ REHAU СЕРТИФИЦИРОВАНА</h2>
+    </div>
+    <div class="container sertificat-wrapper d-flex justify-content-between pt-70">
+      <div class="sert-item">
+        <img src="/src/img/sert01.jpeg" alt="Сертификат продукции Rehau 01">
+      </div>
+      <div class="sert-item">
+        <img src="/src/img/sert02.jpeg" alt="Сертификат продукции Rehau 02">
+      </div>
+      <div class="sert-item">
+        <img src="/src/img/sert03.jpeg" alt="Сертификат продукции Rehau 03">
+      </div>
+      <div class="sert-item">
+        <img src="/src/img/sert04.jpeg" alt="Сертификат продукции Rehau 04">
+      </div>
+      <div class="sert-item">
+        <img src="/src/img/sert05.jpeg" alt="Сертификат продукции Rehau 05">
+      </div>
+      <div class="sert-item">
+        <img src="/src/img/sert06.jpeg" alt="Сертификат продукции Rehau 06">
+      </div>
+    </div>
+  </div>
+
 
   <!-- Мобильный офис -->
+  <div class="mob-office container-fluid p-0 mb-100">
+    <div class="row d-flex">
+      <div class="col-lg-6 mob-office-bg">
+        <img src="/src/img/dogovor-doma.jpg" alt="Оформление договора на дому">
+      </div>
+      <div class="col-lg-6 bg-green p-5">
+        <h2 class="white title-28">УСЛУГА "МОБИЛЬНЫЙ ОФИС"</h2>
+        <p class="white text-18">Закажите окна с дополнительный скидкой не выходя из дома!</p>
+        <h3 class="white title-18 pt-30">ВЫ ЭКОНОМИТЕ ВРЕМЯ</h3>
+        <p class="white text-18">Мы уважаем и ценим Ваше время, поэтому Вам больше не нужно ехать к нам в офис для заключения договора. Замер и оформление заказа займет не более 1 часа</p>
+        <h3 class="white title-18 pt-30">ДОПОЛНИТЕЛЬНАЯ ВЫГОДА</h3>
+        <p class="white text-18">При оформлении договора на дому Вы получаете дополнительную скидку на заказ</p>
+        <h3 class="white title-18 pt-30">В УДОБНЫЙ ДЛЯ ВАС ДЕНЬ</h3>
+        <p class="white text-18">Инженер может приехать к вам для проведения замера и оформления заказа с 8 до 19-00 ч каждый день, включая выходные. Кроме того, вы приобретаете окна в комфортной для вас обстановке — у вас дома!</p>
+        <h3 class="white title-18 pt-30">СКОЛЬКО ЭТО СТОИТ?</h3>
+        <p class="white text-18">Нисколько! Услуга «мобильный офис» совершенно бесплатна в Воронеже и пригороде.</p>
+        <button class="btn-border mt-30" type="button" name="button">Заказать услугу</button>
+      </div>
+    </div>
+  </div>
 
   <!-- Наши работы -->
 

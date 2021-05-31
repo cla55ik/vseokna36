@@ -712,3 +712,70 @@ button.next {
   border:2px solid var(--green);
   padding:10px;
 }
+
+
+/*ЗАМЕР*/
+
+.zamer-wrapper{
+
+  background-image: url(/src/img/bg-zamer.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-left: 0px;
+  padding-right: 0px;
+
+
+}
+
+
+
+.zamer-bg{
+  background-color: rgba(79, 79, 79, 0.7);
+  transition: background .3s,border-radius .3s,opacity .3s;
+
+}
+
+
+.zamer-form .phone {
+  border-radius: 0px;
+  background-color: rgba(255,255,255,0.7);
+  padding: .5rem 1rem;
+  line-height: 1.4;
+  font-size: 15px;
+  border: 1px solid #fff;
+  min-height: 46px;
+  width: 95%;
+}
+
+
+/*Сертификаты */
+
+
+
+.sert-item img{
+  max-width: 170px;
+  object-fit: contain;
+}
+
+
+
+/*Мобтльный офис*/
+.mob-office-bg img {
+  height: 100%;
+  object-fit: cover;
+}
+
+
+button.btn-border{
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #FFFFFF00;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+  border-radius: 0;
+  color: #fff;
+
+  padding: 10px 25px;
+}
