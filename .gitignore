@@ -2,6 +2,7 @@
 
 .ftpconfig
 
+db.php
 
 # phpstorm project files
 .idea

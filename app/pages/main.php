@@ -151,7 +151,17 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
   <!-- Замер -->
     <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/zamer.php"); ?>
   <!-- Акции -->
+  <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/objects/akciiController.php"); ?>
 
+  <div class="container d-flex">
+    <?php foreach ($all_akcii as $akciya): ?>
+      <div class="col-lg-6">
+        <h3><?=$akciya['title'];  ?></h3>
+        <p><?= $akciya['sub_title'];?></p>
+      </div>
+    <?php endforeach; ?>
+
+  </div>
   <!-- СМС купон -->
   <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/sms-coupone.php"); ?>
 
