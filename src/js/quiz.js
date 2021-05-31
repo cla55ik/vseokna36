@@ -1,4 +1,10 @@
+
+
+
 window.onload=function() {
+
+
+
   var quiz = {
     steps:[
       {
@@ -59,7 +65,7 @@ window.onload=function() {
   };
 
 
-  new Vue({
+  var calc = new Vue({
     el:'#calculator',
     data:{
       quiz: quiz,
@@ -84,4 +90,22 @@ window.onload=function() {
       }
     },
   });
+
+
+    var akcii = new Vue({
+      el:'#akcii',
+      data: {
+        stest:passedArray,
+        test: 2,
+      },
+
+
+
+    });
+
+
+
+
+
+
 }
