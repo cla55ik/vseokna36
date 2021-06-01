@@ -142,7 +142,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
   <!-- Замер -->
     <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/zamer.php"); ?>
   <!-- Акции -->
-  <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/objects/akciiController.php"); ?>
+
   <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/akcii-carousel.php"); ?>
 
 
@@ -208,6 +208,3 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
 
 
 </main>
-
-<script src="/src/js/quiz.js"></script>
-<script src="/src/js/akcii.js"></script>

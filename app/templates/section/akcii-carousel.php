@@ -1,3 +1,5 @@
+  <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/objects/akciiController.php"); ?>
+
 <div class="container akcii-wrapper mt-100" id="akcii">
     <div class=" row">
         <div class="col-lg-8">
@@ -47,7 +49,7 @@
 
 
 // Access the array elements
-var passedArray =
+var akciiArray =
 
     <?php echo json_encode($all_akcii); ?>;
 

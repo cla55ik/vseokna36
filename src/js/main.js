@@ -95,7 +95,7 @@ window.onload=function() {
     var akcii = new Vue({
       el:'#akcii',
       data: {
-        stest:passedArray,
+        stest:akciiArray,
         stepIndex: 0,
         test: 2,
       },
