@@ -147,3 +147,151 @@ window.onload=function() {
 
 
 }
+
+
+
+
+  function sender(){
+     event.preventDefault();
+
+     let phone = $('.phone-form').val(); // Получаем значение input
+     let regex = /^(\+7|7|8)?[\s\-]?\(?[489][0-9]{2}\)?[\s\-]?[0-9]{3}[\s\-]?[0-9]{2}[\s\-]?[0-9]{2}$/;
+     if(!regex.test(phone)){
+       $('#novalid').html('Неверный номер телефона');
+
+     }else{
+       var msg = $('#form_cta').serialize();
+
+       $.ajax({
+         type: 'POST',
+         url: '../src/php/sender.php',
+         data: msg,
+
+         success:function(data){
+           $('#form_cta').remove();
+           $('#private').remove();
+           $('#result').html(data);
+         },
+
+         error: function(xhr, str) {
+           alert('Error ', xhr.responseCode);
+         }
+
+       });
+
+     }
+
+
+
+      //return;
+  }
+
+
+
+
+  function sender_green(){
+     event.preventDefault();
+
+     let phone = $('.phone-form-green').val(); // Получаем значение input
+     let regex = /^(\+7|7|8)?[\s\-]?\(?[489][0-9]{2}\)?[\s\-]?[0-9]{3}[\s\-]?[0-9]{2}[\s\-]?[0-9]{2}$/;
+     if(!regex.test(phone)){
+       $('#novalid_green').html('Неверный номер телефона');
+
+     }else{
+       var msg = $('#form_cta_green').serialize();
+
+       $.ajax({
+         type: 'POST',
+         url: '../src/php/sender.php',
+         data: msg,
+
+         success:function(data){
+           $('#form_cta_green').remove();
+           $('#private_green').remove();
+           $('#result_green').html(data);
+         },
+
+         error: function(xhr, str) {
+           alert('Error ', xhr.responseCode);
+         }
+
+       });
+
+     }
+
+
+
+      //return;
+  }
+
+
+  function sender_zamer(){
+     event.preventDefault();
+
+     let phone = $('.phone-zamer').val(); // Получаем значение input
+     let regex = /^(\+7|7|8)?[\s\-]?\(?[489][0-9]{2}\)?[\s\-]?[0-9]{3}[\s\-]?[0-9]{2}[\s\-]?[0-9]{2}$/;
+     if(!regex.test(phone)){
+       $('#novalid_zamer').html('Неверный номер телефона');
+
+     }else{
+       var msg = $('#form_cta_zamer').serialize();
+
+       $.ajax({
+         type: 'POST',
+         url: '../src/php/sender.php',
+         data: msg,
+
+         success:function(data){
+           $('#form_cta_zamer').remove();
+           $('#private_zamer').remove();
+           $('#result_zamer').html(data);
+         },
+
+         error: function(xhr, str) {
+           alert('Error ', xhr.responseCode);
+         }
+
+       });
+
+     }
+
+
+
+      //return;
+  }
+
+
+  function sender_sms(){
+     event.preventDefault();
+
+     let phone = $('.phone-sms').val(); // Получаем значение input
+     let regex = /^(\+7|7|8)?[\s\-]?\(?[489][0-9]{2}\)?[\s\-]?[0-9]{3}[\s\-]?[0-9]{2}[\s\-]?[0-9]{2}$/;
+     if(!regex.test(phone)){
+       $('#novalid_sms').html('Неверный номер телефона');
+
+     }else{
+       var msg = $('#form_cta_sms').serialize();
+
+       $.ajax({
+         type: 'POST',
+         url: '../src/php/sender.php',
+         data: msg,
+
+         success:function(data){
+           $('#form_cta_sms').remove();
+           $('#private_sms').remove();
+           $('#result_sms').html(data);
+         },
+
+         error: function(xhr, str) {
+           alert('Error ', xhr.responseCode);
+         }
+
+       });
+
+     }
+
+
+
+      //return;
+  }

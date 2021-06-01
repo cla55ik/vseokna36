@@ -6,15 +6,19 @@
     </div>
   </div>
   <div class="col-lg-5 cta-block2">
-    <form class="form-inline d-flex d-wrap mt-4" action="index.html" method="post">
+    <div class="text-24 white" id="result_green">
+    </div>
+    <div class="text-16 font-weight-bold white" id="novalid_green">
+    </div>
+    <form id="form_cta_green" class="form-inline d-flex d-wrap mt-4" onsubmit="sender_green()">
       <div class="col-lg-7">
-        <input class="phone" type="text" name="phone" value="" placeholder="+7 --- --- -- --" required>
+        <input class="phone phone-form-green" type="text" name="phone" value="" placeholder="+7 --- --- -- --" required>
       </div>
       <div class="col-lg-5">
         <input class="btn-round bg-pink w-100" type="submit" name="form_submit" value="Жду звонка">
       </div>
     </form>
-    <div class="private-link text-10 mt-2 white">
+    <div class="private-link text-10 mt-2 white" id="private_green">
       <span class="white">Нажимая кнопку, вы даете согласие на обработку </span><a href="#">персональных данных</a>
     </div>
   </div>

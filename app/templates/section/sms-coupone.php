@@ -4,16 +4,20 @@
     <p>Получите смс-сообщение с номером купона, назовите номер купона при общении с менеджером и получите дополнительную скидку на заказ.</p>
     <p>Купон действителен в течение 50 дней</p>
     <div class="sms-form-wrapper">
-      <form class="horizontal-form" action="index.html" method="post">
+      <div class="text-24 " id="result_sms">
+      </div>
+      <div class="text-16 font-weight-bold" id="novalid_sms">
+      </div>
+      <form id="form_cta_sms" class="horizontal-form" onsubmit="sender_sms()">
         <div class="pb-4 pt-5">
-          <input class="w-100" type="text" name="phone" value="" placeholder="Телефон">
+          <input class="w-100 phone-sms" type="text" name="phone" value="" placeholder="Телефон" required>
         </div>
         <div class="">
           <input class="bg-green btn-sqr white" type="submit" name="" value="Получить скидку">
         </div>
       </form>
     </div>
-    <div class="private-link text-12 mt-2">
+    <div class="private-link text-12 mt-2" id="private_sms">
       <span>Нажимая кнопку, вы даете согласие на обработку </span><a href="#">персональных данных</a>
     </div>
   </div>
