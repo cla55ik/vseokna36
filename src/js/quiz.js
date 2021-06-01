@@ -96,14 +96,23 @@ window.onload=function() {
       el:'#akcii',
       data: {
         stest:passedArray,
+        stepIndex: 0,
         test: 2,
       },
       methods:{
         next: function(){
-          alert('next');
+          console.log('sI = ' + this.stepIndex);
+          //console.log(this.stest.length);
+          if(this.stepIndex === (this.stest.length - 2)){
+            this.stepIndex = -1;
+          }
+          this.stepIndex++;
         },
         prev: function(){
-          alert('prev');
+          if(this.stepIndex===0){
+            this.stepIndex = this.stest.length - 1;
+          }
+          this.stepIndex--;
         }
       },
 

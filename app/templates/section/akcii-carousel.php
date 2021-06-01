@@ -9,15 +9,15 @@
             <button type="button" name="button" v-on:click="next">Вперед</button>
         </div>
 
-
     </div>
     <div class="d-flex akciya-carousel-wrapper">
-        <div class="akciya-card  col-lg-6 p-0" v-for="s in stest">
+        <div class="akciya-card  col-lg-6 p-0" v-for="(s, index) in stest" v-show="index===stepIndex || index===(stepIndex + 1)">
+
           <div class="akciya-img">
             <img class="img-fluid" :src=s.img alt="" />
           </div>
-          <div class="akciya-body  p-5">
-            <p>{{ s.index }}</p>
+          <div class="akciya-body  p-5" >
+    
             <h3 class="text-24 white">{{ s.title }}</h3>
             <h4 class="text-18 white">{{ s.sub_title }}</h4>
             <ul class="white">
