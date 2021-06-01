@@ -3,6 +3,9 @@
 
 window.onload=function() {
 
+document.getElementById('modal-background').classList.add("modal-hide");
+
+
 
 
   var quiz = {
@@ -294,4 +297,118 @@ window.onload=function() {
 
 
       //return;
+  }
+
+
+
+
+  function sender_dist(){
+     event.preventDefault();
+     $('#novalid_dist').html('');
+     let phone = $('.phone-dist').val(); // Получаем значение input
+     let regex = /^(\+7|7|8)?[\s\-]?\(?[489][0-9]{2}\)?[\s\-]?[0-9]{3}[\s\-]?[0-9]{2}[\s\-]?[0-9]{2}$/;
+     if(!regex.test(phone)){
+       $('#novalid_dist').html('Неверный номер телефона');
+
+     }else{
+       var msg = $('#form_cta_dist').serialize();
+
+       $.ajax({
+         type: 'POST',
+         url: '../src/php/sender.php',
+         data: msg,
+
+         success:function(data){
+           $('#form_cta_dist').remove();
+           $('#private_dist').remove();
+           $('#result_dist').html(data);
+         },
+
+         error: function(xhr, str) {
+           alert('Error ', xhr.responseCode);
+         }
+
+       });
+
+     }
+
+
+
+      //return;
+  }
+
+
+
+  function sender_modal(){
+     event.preventDefault();
+     $('#novalid_modal').html('');
+     let phone = $('.phone-modal').val(); // Получаем значение input
+     let regex = /^(\+7|7|8)?[\s\-]?\(?[489][0-9]{2}\)?[\s\-]?[0-9]{3}[\s\-]?[0-9]{2}[\s\-]?[0-9]{2}$/;
+     if(!regex.test(phone)){
+       $('#novalid_modal').html('Неверный номер телефона');
+
+     }else{
+       var msg = $('#form_cta_modal').serialize();
+
+       $.ajax({
+         type: 'POST',
+         url: '../src/php/sender.php',
+         data: msg,
+
+         success:function(data){
+           $('#form_cta_modal').remove();
+           $('#private_modal').remove();
+           $('#result_modal').html(data);
+         },
+
+         error: function(xhr, str) {
+           alert('Error ', xhr.responseCode);
+         }
+
+       });
+
+     }
+
+
+
+      //return;
+  }
+
+
+
+
+
+
+
+
+
+  function modalVisible(){
+      console.log(window.pageYOffset);
+      offset = window.pageYOffset;
+
+      document.body.style.position = 'fixed';
+      document.body.style.top = '-' + offset + 'px';
+    let modal = document.getElementById('modal-background');
+    let modalW = document.getElementById('modal-wrapper');
+    modal.style.top = offset + 'px';
+    modal.classList.remove("modal-hide");
+    modal.classList.add("modal-vis");
+
+
+
+    //console.log(window.pageYOffset);
+
+  }
+
+
+  function modalHide(){
+      offset = window.pageYOffset;
+      const scrollY = document.body.style.top;
+      document.body.style.position = '';
+      document.body.style.top = '';
+      window.scrollTo(0, parseInt(scrollY || '0') * -1);
+    let modal = document.getElementById('modal-background');
+    modal.classList.remove("modal-vis");
+    modal.classList.add("modal-hide");
+
   }

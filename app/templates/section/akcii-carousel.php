@@ -31,7 +31,7 @@
             </ul>
           </div>
           <div class=" p-5 akciya-button">
-              <button type="button" name="button">Подробнее</button>
+              <button type="button" name="button" onclick="modalVisible()">Подробнее</button>
           </div>
         </div>
     </div>

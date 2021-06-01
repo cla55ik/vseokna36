@@ -58,7 +58,7 @@
       <div class="head-contacts col-lg-3 d-flex flex-wrap justify-content-end">
         <p class="m-0 gray text-14"><?= $contacts['address'];?></p>
         <a class="head-phone pink w-100 text-end" href="tel:<?= $contacts['tel_link'];?>"><?= $contacts['tel'];?></a>
-        <a class="gray w-100 text-end gray text-16 head-modal-btn" href="#">Заказать звонок</a>
+        <a class="gray w-100 text-end gray text-16 head-modal-btn" href="#" onclick="modalVisible()">Заказать звонок</a>
       </div>
     </div>
   </div>

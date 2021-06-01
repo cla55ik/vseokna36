@@ -979,6 +979,40 @@ input[type="text\ w-100"] {
 
 .review-body p{
   color: #828282 !important;
-  
+
   line-height: 1.5em;
+}
+
+
+
+/*Попап модальное окно*/
+
+.modal-background{
+  padding-top: 10vh;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0, 0.5);
+}
+
+
+.modal-hide{
+  display: none;
+}
+
+.modal-vis{
+  position: absolute;
+  
+  left: 0;
+  overflow: hidden;
+  display: block;
+}
+
+
+.modal-wrapper{
+  background-color: #fff;
+  width: 40%;
+  height: auto;
+  padding: 40px;
+
+  margin:auto;
 }
