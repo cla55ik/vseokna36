@@ -4,17 +4,23 @@
     <meta charset="utf-8">
     <!-- Настройка viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Подключаем Bootstrap CSS -->
+    <!-- Подключаем Bootstrap CSS
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    -->
+
     <!-- Подключаем Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="/src/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/src/css/style.css">
+
     <!--Подключаем Шрифт-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
 
     <!--VUE js-->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
-    <!--jquery-->
+    <!--jquery
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    -->
+
     <script src="/src/js/main.js" defer></script>
     <!-- favicon -->
     <link type="image/x-icon" rel="shortcut icon" href="/src/img/favicon.svg">

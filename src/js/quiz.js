@@ -98,7 +98,14 @@ window.onload=function() {
         stest:passedArray,
         test: 2,
       },
-
+      methods:{
+        next: function(){
+          alert('next');
+        },
+        prev: function(){
+          alert('prev');
+        }
+      },
 
 
     });

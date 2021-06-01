@@ -646,7 +646,7 @@ div.card-item-round{
 
 .services-card{
   height: 400px;
-  width: 23%;
+  width: 23% !important;
   padding: 25px;
   box-shadow: 2px 2px 4px 0px rgb(91 66 66 / 37%)
 }
@@ -862,4 +862,48 @@ input[type="text\ w-100"] {
   border-width: 0 0 1px;
   border-radius: 0;
   padding: 10px;
+}
+
+
+
+
+/*Акции*/
+.akciya-img img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
+.akciya-card{
+  background-color: #d57095;
+  width: 46%;
+  margin: 2%;
+}
+
+
+.akciya-body li{
+  margin: 10px 0px;
+}
+
+.akciya-button button{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  border-color: #fff;
+  background-color: var(--pink);
+  color: #fff;
+  padding: 7px 20px;
+  transition: 0.7s;
+}
+
+.akciya-button button:hover{
+  border-color: var(--pink);
+  transition: 0.7s;
+}
+
+
+.akciya-carousel-wrapper {
+  overflow: hidden;
 }
