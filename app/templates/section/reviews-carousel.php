@@ -39,6 +39,6 @@
 
 
 
-<script type="text/javascript">
+<script>
   reviewsArray = <?php echo json_encode($all_reviews); ?>
 </script>

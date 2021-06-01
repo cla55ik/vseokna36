@@ -9,13 +9,13 @@
       <form id="form_cta_zamer" class="form-inline" onsubmit="sender_zamer()">
         <div class="d-flex zamer-form">
           <div class="col-lg-4">
-            <input class="phone" type="text" name="" value="name" placeholder="Имя">
+            <input class="phone" type="text" name="name" value="" placeholder="Имя">
           </div>
           <div class="col-lg-4">
             <input class="phone phone-zamer" type="text" name="phone" value="" placeholder="Телефон">
           </div>
           <div class="col-lg-2">
-            <input class="bg-pink white btn-round" type="submit" name="" value="Отправить">
+            <input class="bg-pink white btn-round" type="submit" value="Отправить">
           </div>
         </div>
         <div class="private-link text-12 mt-2" id="private-zamer">

@@ -12,13 +12,13 @@
     </div>
     <form id="form_cta_dist" class="hirizontal-form w-60 pt-5" onsubmit="sender_dist()">
       <div class="form-text mt-3">
-        <input type="text w-100" name="name" value="" placeholder="Имя">
+        <input type="text" name="name" value="" placeholder="Имя">
       </div>
       <div class="form-text">
-        <input class="phone-dist" type="text w-100" name="phone" value="" placeholder="Телефон" required>
+        <input class="phone-dist" type="text" name="phone" value="" placeholder="Телефон" required>
       </div>
       <div class="form-submit mt-3 mb-3">
-        <input class="bg-pink btn-sqr white text-uppercase" type="submit" name="" value="Отправить">
+        <input class="bg-pink btn-sqr white text-uppercase" type="submit" value="Отправить">
       </div>
 
       <div class="private-link text-12 mt-2 text-center" id="private_dist">

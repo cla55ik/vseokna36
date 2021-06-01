@@ -48,7 +48,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
             <span class="second title-32">ДЕТСКОЙ&nbsp;БЕЗОПАСНОСТИ</span>
           </h2>
           <div class="d-flex justify-content-between align-items-center">
-            <img src="/src/img/ruchka-s-zamkom.png" alt="Ручка с замком в подарок">
+            <img src="/src/img/ruchka-s-zamkom.png" alt="Ручка с замком в подарок" loading="lazy">
             <span class="pink plus">+</span>
             <h3 class="pink text-32">
               ручка с замком<br />
@@ -75,7 +75,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
         </ul>
       </div>
       <div class="col-lg-5">
-        <img class="mt-2" src="/src/img/sertificat.jpg" alt="Сертификат официального партнера рехау">
+        <img class="mt-2" src="/src/img/sertificat.jpg" alt="Сертификат официального партнера рехау" loading="lazy">
       </div>
     </div>
     <div class="row advant-round-wrapper justify-content-between pt-50 pb-50">
@@ -154,22 +154,22 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
     </div>
     <div class="container sertificat-wrapper d-flex justify-content-between pt-70">
       <div class="sert-item">
-        <img src="/src/img/sert01.jpeg" alt="Сертификат продукции Rehau 01">
+        <img src="/src/img/sert01.jpeg" alt="Сертификат продукции Rehau 01" loading="lazy">
       </div>
       <div class="sert-item">
-        <img src="/src/img/sert02.jpeg" alt="Сертификат продукции Rehau 02">
+        <img src="/src/img/sert02.jpeg" alt="Сертификат продукции Rehau 02" loading="lazy">
       </div>
       <div class="sert-item">
-        <img src="/src/img/sert03.jpeg" alt="Сертификат продукции Rehau 03">
+        <img src="/src/img/sert03.jpeg" alt="Сертификат продукции Rehau 03" loading="lazy">
       </div>
       <div class="sert-item">
-        <img src="/src/img/sert04.jpeg" alt="Сертификат продукции Rehau 04">
+        <img src="/src/img/sert04.jpeg" alt="Сертификат продукции Rehau 04" loading="lazy">
       </div>
       <div class="sert-item">
-        <img src="/src/img/sert05.jpeg" alt="Сертификат продукции Rehau 05">
+        <img src="/src/img/sert05.jpeg" alt="Сертификат продукции Rehau 05" loading="lazy">
       </div>
       <div class="sert-item">
-        <img src="/src/img/sert06.jpeg" alt="Сертификат продукции Rehau 06">
+        <img src="/src/img/sert06.jpeg" alt="Сертификат продукции Rehau 06" loading="lazy">
       </div>
     </div>
   </div>
@@ -179,7 +179,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
   <div class="mob-office container-fluid p-0 mb-100">
     <div class="container-fluid p-0 d-flex">
       <div class="col-lg-6 mob-office-bg">
-        <img src="/src/img/dogovor-doma.jpg" alt="Оформление договора на дому">
+        <img src="/src/img/dogovor-doma.jpg" alt="Оформление договора на дому" loading="lazy">
       </div>
       <div class="col-lg-6 bg-green p-5">
         <h2 class="white title-28">УСЛУГА "МОБИЛЬНЫЙ ОФИС"</h2>

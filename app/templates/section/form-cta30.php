@@ -4,7 +4,7 @@
   </div>
   <div class="text-16 font-weight-bold" id="novalid">
   </div>
-  <form id="form_cta" action="" class="form-inline d-flex d-wrap mt-4" onsubmit="sender()">
+  <form id="form_cta" class="form-inline d-flex d-wrap mt-4" onsubmit="sender()">
     <div class="col-lg-6">
       <input id="phone" class="phone phone-form" type="text" name="phone" value="" placeholder="+7 --- --- -- --" required>
     </div>

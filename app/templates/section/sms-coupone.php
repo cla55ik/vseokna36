@@ -1,5 +1,5 @@
-<div class="container sms-wrapper d-flex pb-100 pt-100 pl-150 pr-150">
-  <div class="col-lg-6">
+<div class="container sms-wrapper d-flex pb-100 pt-100 pl-110 pr-150">
+  <div class="col-lg-7">
     <h2 class="gray title-36">СМС-КУПОН НА СКИДКУ!</h2>
     <p>Получите смс-сообщение с номером купона, назовите номер купона при общении с менеджером и получите дополнительную скидку на заказ.</p>
     <p>Купон действителен в течение 50 дней</p>
@@ -13,7 +13,7 @@
           <input class="w-100 phone-sms" type="text" name="phone" value="" placeholder="Телефон" required>
         </div>
         <div class="">
-          <input class="bg-green btn-sqr white" type="submit" name="" value="Получить скидку">
+          <input class="bg-green btn-sqr white" type="submit" value="Получить скидку">
         </div>
       </form>
     </div>
@@ -21,7 +21,7 @@
       <span>Нажимая кнопку, вы даете согласие на обработку </span><a href="#">персональных данных</a>
     </div>
   </div>
-  <div class="col-lg-6 d-flex align-items-end">
-    <img class="img-fluid" src="/src/img/sms-coupone.png" alt="Смс купон на скидку">
+  <div class="col-lg-5 d-flex align-items-end">
+    <img class=" sms-img img-fluid" src="/src/img/sms-coupone.png" alt="Смс купон на скидку">
   </div>
 </div>

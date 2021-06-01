@@ -122,9 +122,9 @@
           </div>
           <div class="pb-30 d-flex justify-content-between text-center ">
             <div class="">
-              <label for="matone">
+              <label for="typeone">
                 <div class="quiz-img">
-                  <input type="radio" id="matone" value="Кирпич" v-model="matType">
+                  <input type="radio" id="typeone" value="Кирпич" v-model="matType">
                     <img src="/src/img/q-1-1.svg" alt="">
                   </input>
                 </div>
