@@ -1001,7 +1001,7 @@ input[type="text\ w-100"] {
 
 .modal-vis{
   position: absolute;
-  
+
   left: 0;
   overflow: hidden;
   display: block;
@@ -1015,4 +1015,81 @@ input[type="text\ w-100"] {
   padding: 40px;
 
   margin:auto;
+}
+
+
+
+/*Профили Rehau*/
+
+.profile-card{
+  width: 49%;
+  background-color: #fff;
+  padding: 35px;
+  margin-bottom: 2%;
+  box-shadow: 2px 2px 4px 0px rgb(0 0 0 / 50%);
+}
+
+
+.profile-card h3{
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--pink);
+}
+
+.profile-card p{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2em;
+
+}
+
+
+.profile-advantage {
+  padding-right: 80px;
+}
+
+.profile-advantage span{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1em;
+}
+
+
+.profile-advantage img {
+  width: 35px;
+  margin-right: 15px;
+}
+
+.profile-img{
+  height: 270px;
+}
+
+
+.profile-price span{
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--pink);
+}
+
+
+.profile.green-line{
+  padding: 10px 0px;
+}
+
+.profile.green-line p{
+  margin: 0px;
+}
+
+
+
+
+.green-line{
+  margin: 10px 0 20px;
+}
+
+.spec-text span{
+  font-size: 24px;
+  font-weight: 600;
+  color:#626262 !important;
 }
