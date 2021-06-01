@@ -24,12 +24,12 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
       <div class="container d-flex advantages p-0">
         <div class="col-lg-6 pink-advantage">
           <h2 class="text-white">Качественные окна</h2>
-          <p class="text-white">Огромный выбор моделей и дизайна окон РЕХАУ позволяет использовать их в разных климатических зонах, устанавливать в загородных домах, квартирах, бизнес-центрах и зданиях, где существуют особые требования к гигиене, шумо- и теплоизоляции.
+          <p class="text-white text-18">Огромный выбор моделей и дизайна окон РЕХАУ позволяет использовать их в разных климатических зонах, устанавливать в загородных домах, квартирах, бизнес-центрах и зданиях, где существуют особые требования к гигиене, шумо- и теплоизоляции.
           </p>
         </div>
         <div class="col-lg-6 green-advantage">
           <h2 class="text-white">Профессиональная команда</h2>
-          <p class="text-white">В нашем уютном коллективе только истинные специалисты, которые подберут идеальное решение и расшифруют все технические нюансы на понятном вам языке.
+          <p class="text-white text-18">В нашем уютном коллективе только истинные специалисты, которые подберут идеальное решение и расшифруют все технические нюансы на понятном вам языке.
           </p>
         </div>
       </div>
@@ -122,12 +122,9 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
       <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/green-cta-section.php"); ?>
     </div>
   </div>
-  <div class="container pb-70">
-    <h2 class="title-32  text-center mb-70">
-      УЗНАЙТЕ ТОЧНУЮ <span class="pink">СТОИМОСТЬ ОКОН</span> ЗА 3 МИНУТЫ!
-    </h2>
+
     <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/quiz.php"); ?>
-  </div>
+  
   <div class="container dt-50 pb-50">
     <h2 class=" title-32 text-center">С НАМИ КУПИТЬ ОКНО ПРОСТО</h2>
   </div>
@@ -135,7 +132,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
     <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/steps-easy-buy.php"); ?>
   </div>
   <div class="container pb-100">
-    <h3 class="title-32 mb-30">Почему выгодно остеклять помещение с нами</h3>
+    <h3 class="title-32-cc mb-30">Почему выгодно остеклять помещение с нами</h3>
     <p class="text-18">Заказывайте остекление без посредников и переплат — на сайте официального представителя «Рехау». Мы партнер немецкого концерна. Изготавливаем окна за 7 дней. Остекляем проемы по ГОСТу. Чтобы недорого заказать окна REHAU в Воронеже, позвоните нам или оставьте заявку в форме на сайте.</p>
   </div>
 
@@ -203,6 +200,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
 <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/our-works.php"); ?>
 
   <!-- Отзывы -->
+<?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/reviews-carousel.php"); ?>
   <!-- Дистанционный замер -->
 <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/distantion.php"); ?>
 

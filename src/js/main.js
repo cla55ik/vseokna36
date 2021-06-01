@@ -97,12 +97,10 @@ window.onload=function() {
       data: {
         stest:akciiArray,
         stepIndex: 0,
-        test: 2,
       },
       methods:{
         next: function(){
-          console.log('sI = ' + this.stepIndex);
-          //console.log(this.stest.length);
+
           if(this.stepIndex === (this.stest.length - 2)){
             this.stepIndex = -1;
           }
@@ -117,6 +115,30 @@ window.onload=function() {
       },
 
 
+    });
+
+
+    var reviews = new Vue({
+      el: '#reviews',
+      data:{
+        reviews:reviewsArray,
+        stepIndex: 0,
+      },
+      methods:{
+        next: function(){
+
+          if(this.stepIndex === (this.reviews.length - 3)){
+            this.stepIndex = -1;
+          }
+          this.stepIndex++;
+        },
+        prev: function(){
+          if(this.stepIndex===0){
+            this.stepIndex = this.reviews.length - 2;
+          }
+          this.stepIndex--;
+        }
+      },
     });
 
 

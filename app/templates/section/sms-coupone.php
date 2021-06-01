@@ -1,4 +1,4 @@
-<div class="container sms-wrapper d-flex pb-100 pt-100 pl-50 pr-50">
+<div class="container sms-wrapper d-flex pb-100 pt-100 pl-150 pr-150">
   <div class="col-lg-6">
     <h2 class="gray title-36">СМС-КУПОН НА СКИДКУ!</h2>
     <p>Получите смс-сообщение с номером купона, назовите номер купона при общении с менеджером и получите дополнительную скидку на заказ.</p>

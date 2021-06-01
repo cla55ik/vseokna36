@@ -22,7 +22,7 @@
 
           <div class="akciya-body  p-5" >
 
-            <h3 class="text-24 white">{{ s.title }}</h3>
+            <h3 class="text-24 white mb-30">{{ s.title }}</h3>
             <h4 class="text-18 white">{{ s.sub_title }}</h4>
             <ul class="white">
                 <li v-show="s.item_1 != ''">{{ s.item_1 }}</li>
