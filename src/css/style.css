@@ -907,3 +907,22 @@ input[type="text\ w-100"] {
 .akciya-carousel-wrapper {
   overflow: hidden;
 }
+
+
+
+.control-button a{
+  margin: 0px 30px;
+}
+
+.control-button a:hover{
+  cursor: pointer;
+}
+
+.control-button img{
+  width: 15px;
+}
+
+
+.akcii-wrapper h2 {
+  font-weight: 700;
+}

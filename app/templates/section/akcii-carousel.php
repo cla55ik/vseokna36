@@ -1,23 +1,25 @@
 <div class="container akcii-wrapper mt-100" id="akcii">
-    <div class="mb-40 row">
+    <div class=" row">
         <div class="col-lg-8">
             <h2 class="title-36-cc">Действующие акции</h2>
         </div>
-        <div class="col-lg-4 d-flex justify-content-end">
+        <div class="col-lg-4 d-flex justify-content-end control-button">
 
-            <button type="button" name="button" v-on:click="prev">Назад</button>
-            <button type="button" name="button" v-on:click="next">Вперед</button>
+            <a v-on:click="prev"><img src="/src/img/chevron-left.svg" alt="Кнопка назад"></a>
+            <a v-on:click="next"> <img src="/src/img/chevron-right.svg" alt="Кнопка вперед"> </a>
         </div>
 
     </div>
     <div class="d-flex akciya-carousel-wrapper">
+
         <div class="akciya-card  col-lg-6 p-0" v-for="(s, index) in stest" v-show="index===stepIndex || index===(stepIndex + 1)">
 
           <div class="akciya-img">
             <img class="img-fluid" :src=s.img alt="" />
           </div>
+
           <div class="akciya-body  p-5" >
-    
+
             <h3 class="text-24 white">{{ s.title }}</h3>
             <h4 class="text-18 white">{{ s.sub_title }}</h4>
             <ul class="white">
