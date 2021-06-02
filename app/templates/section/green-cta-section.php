@@ -10,9 +10,9 @@
     </div>
     <div class="text-16 font-weight-bold white" id="novalid_green">
     </div>
-    <form id="form_cta_green" class="form-inline d-flex d-wrap mt-4" onsubmit="sender_green()">
+    <form id="form_cta_green" class="form-inline d-flex d-wrap mt-4" onsubmit="senderForm('green')">
       <div class="col-lg-7">
-        <input class="phone phone-form-green" type="text" name="phone" value="" placeholder="+7 --- --- -- --" required>
+        <input class="phone phone-green" type="text" name="phone" value="" placeholder="+7 --- --- -- --" required>
       </div>
       <div class="col-lg-5">
         <input class="btn-round bg-pink w-100" type="submit" name="form_submit" value="Жду звонка">

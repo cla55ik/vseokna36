@@ -44,14 +44,14 @@
           <span>Пн-Пт 09:00-18:00, Сб 10:00-15:00</span>
         </div>
         <div class="d-flex head-grafik align-items-center pt-1 pb-1">
-          <img class="img-fluid" src="/src/img/clock.svg" alt="Написать письмо на электронную почту">
+          <img class="img-fluid" src="/src/img/email.svg" alt="Написать письмо на электронную почту">
           <a href="mailto:<?= $contacts['mail'];?>"><?= $contacts['mail'];?></a>
         </div>
       </div>
       <div class="head-calc col-lg-3 d-flex align-items-center justify-content-center pink">
         <a href="#calc" class="d-flex align-items-center ">
           <img src="/src/img/calculator.svg" alt="Калькулятор стоимости окон">
-          <span>Калькулятор<br />стоимости</span>
+          <span class="pink">Калькулятор<br />стоимости</span>
 
         </a>
       </div>

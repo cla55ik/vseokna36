@@ -10,15 +10,15 @@
     </div>
     <div class="text-16 font-weight-bold white" id="novalid_dist">
     </div>
-    <form id="form_cta_dist" class="hirizontal-form w-60 pt-5" onsubmit="sender_dist()">
+    <form id="form_cta_dist" class="form-cta-dist hirizontal-form w-60 pt-5" onsubmit="senderForm('dist')">
       <div class="form-text mt-3">
-        <input type="text" name="name" value="" placeholder="Имя">
+        <input class="name-dist w-100" type="text" name="name" value="" placeholder="Имя">
       </div>
       <div class="form-text">
-        <input class="phone-dist" type="text" name="phone" value="" placeholder="Телефон" required>
+        <input class="phone-dist w-100" type="text" name="phone" value="" placeholder="Телефон" required>
       </div>
       <div class="form-submit mt-3 mb-3">
-        <input class="bg-pink btn-sqr white text-uppercase" type="submit" value="Отправить">
+        <input class="bg-pink btn-sqr white text-uppercase w-100" type="submit" value="Отправить">
       </div>
 
       <div class="private-link text-12 mt-2 text-center" id="private_dist">

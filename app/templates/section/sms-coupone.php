@@ -8,7 +8,7 @@
       </div>
       <div class="text-16 font-weight-bold" id="novalid_sms">
       </div>
-      <form id="form_cta_sms" class="horizontal-form" onsubmit="sender_sms()">
+      <form id="form_cta_sms" class="horizontal-form" onsubmit="senderForm('sms')">
         <div class="pb-4 pt-5">
           <input class="w-100 phone-sms" type="text" name="phone" value="" placeholder="Телефон" required>
         </div>

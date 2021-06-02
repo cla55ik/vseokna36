@@ -3,8 +3,80 @@
 
 
     <footer>
-      <div class="">
-        footer
+      <div class="container-fluid bg-gray pt-40 pb-50">
+        <div class="container">
+          <div class="row footer-head">
+            <div class="col-lg-3">
+              <a class="d-flex align-items-center" href="/">
+                <img src="/src/img/logo-white.svg" alt="Логотип салона окон Rehau">
+                <span>САЛОН <br />ЭНЕРГОСБЕРЕГАЮЩИХ<br /> ТЕХНОЛОГИЙ</span>
+              </a>
+            </div>
+            <div class="col-lg-5 d-flex justify-content-between align-items-start">
+              <button class="btn-footer" type="button" name="btn-footer-price" onclick="modalVisible()">Узнать стоимость</button>
+              <button class="btn-footer" type="button" name="btn-footer-price" onclick="modalVisible()">Бесплатный замер</button>
+            </div>
+            <div class="col-lg-4 text-end pb-30">
+              <a class="white title-36" href="tel:<?= $contacts['tel_link']; ?>"><?=$contacts['tel'] ; ?></a>
+              <a class="white text-20 text-end w-100" href="#" onclick="modalVisible()">Заказать звонок</a>
+            </div>
+          </div>
+          <div class="row footer-body pt-50 pb-40">
+            <div class="col-lg-3">
+              <p class="title-18 white">ОСТЕКЛЕНИЕ</p>
+              <ul>
+                <?php foreach ($footer_first as $name => $link): ?>
+                  <li class="nav-item">
+                    <a class="nav-link" href="<?=$link;?>"><?=$name;?></a>
+                  </li>
+                <?php endforeach; ?>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <p class="title-18 white">МАТЕРИАЛЫ</p>
+              <ul>
+                <?php foreach ($footer_second as $name => $link): ?>
+                  <li class="nav-item">
+                    <a class="nav-link" href="<?=$link;?>"><?=$name;?></a>
+                  </li>
+                <?php endforeach; ?>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <p class="title-18 white">КЛИЕНТАМ</p>
+              <ul>
+                <?php foreach ($footer_third as $name => $link): ?>
+                  <li class="nav-item">
+                    <a class="nav-link" href="<?=$link;?>"><?=$name;?></a>
+                  </li>
+                <?php endforeach; ?>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <p class="white m-0"><?=$contacts['address'] ;?></p>
+              <a class="white " href="mailto:<?=$contacts['mail'] ; ?>"><?= $contacts['mail'] ; ?></a>
+              <p class="title-18 white pt-30">ПРИНИМАЕМ К ОПЛАТЕ</p>
+              <div class="d-flex justify-content-between align-items-center methods-pay">
+                <img src="/src/img/mastercard.svg" alt="mastercard">
+                <img src="/src/img/visa.svg" alt="visa">
+                <img src="/src/img/mir.svg" alt="карта мир">
+
+              </div>
+            </div>
+          </div>
+          <div class="row footer-footer pt-50">
+            <div class="row">
+              <div class="col-lg-6 white">
+                © 2021 ИП Варванцев В.В. Все права защищены.
+              </div>
+              <div class="col-lg-6 d-flex justify-content-between">
+                <a class="white" href="#">Политика конфиденциальности</a>
+                <a class="white" href="#">Способы оплаты</a>
+              </div>
+              <p class="white pt-30">Оставляя на сайте свои контактные данные, Вы даете согласие на обработку своих персональных данных в соответствии с политикой конфиденциальности. Сайт не является публичной офертой и носит информационный характер.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
 
