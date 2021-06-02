@@ -21,7 +21,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
 
   <div class="container-fluid bg-light">
     <div class="container p-0">
-      <div class="container d-flex advantages p-0">
+      <div class="container d-flex flex-wrap advantages p-0">
         <div class="col-lg-6 pink-advantage">
           <h2 class="text-white">Качественные окна</h2>
           <p class="text-white text-18">Огромный выбор моделей и дизайна окон РЕХАУ позволяет использовать их в разных климатических зонах, устанавливать в загородных домах, квартирах, бизнес-центрах и зданиях, где существуют особые требования к гигиене, шумо- и теплоизоляции.
@@ -47,7 +47,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
             <span class="first title-42">ОБЪЯВЛЯЕМ ГОД</span>
             <span class="second title-32">ДЕТСКОЙ&nbsp;БЕЗОПАСНОСТИ</span>
           </h2>
-          <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex flex-wrap justify-content-between align-items-center">
             <img src="/src/img/ruchka-s-zamkom.png" alt="Ручка с замком в подарок" loading="lazy">
             <span class="pink plus">+</span>
             <h3 class="pink text-32">
@@ -68,7 +68,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
     <div class="row">
       <div class="col-lg-7 text-18-32" >
         <p class="mb-5">Салон энергосберегающих окон – официальный партнер REHAU. Мы поставляем и устанавливаем оконные системы любой сложности. Отлаженное автоматизированное производство пластиковых окон позволяет гарантировать качество на всех этапах изготовления и уменьшать стоимость изделий.</p>
-        <ul>
+        <ul class="d-none d-md-block">
           <li>Наш <strong>инженер по замеру бесплатно</strong> посетит ваш объект и предложит оптимальную комплектацию.</li>
           <li> <strong>Монтаж пластиковых окон</strong>– задача не менее важная, чем выбор профиля и стеклопакета.</li>
           <li> <strong>Все сотрудники компании регулярно сдают тесты </strong> на подтверждение квалификации, проходят обучение работе с новыми технологиями и применяют только соответствующие нормам материалы и методы работы.</li>
@@ -129,7 +129,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
   <div class="container dt-50 pb-50">
     <h2 class=" title-32 text-center">С НАМИ КУПИТЬ ОКНО ПРОСТО</h2>
   </div>
-  <div class="container d-flex justify-content-between pb-100">
+  <div class="container d-flex flex-wrap justify-content-between pb-100">
     <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/steps-easy-buy.php"); ?>
   </div>
   <div class="container pb-100">
@@ -152,7 +152,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
     <div class="container">
       <h2 class="gray title-36">ПРОДУКЦИЯ REHAU СЕРТИФИЦИРОВАНА</h2>
     </div>
-    <div class="container sertificat-wrapper d-flex justify-content-between pt-70">
+    <div class="d-none d-lg-flex container sertificat-wrapper justify-content-between pt-70">
       <div class="sert-item">
         <img src="/src/img/sert01.jpeg" alt="Сертификат продукции Rehau 01" loading="lazy">
       </div>
@@ -178,7 +178,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
   <!-- Мобильный офис -->
   <div class="mob-office container-fluid p-0 mb-100">
     <div class="container-fluid p-0 d-flex">
-      <div class="col-lg-6 mob-office-bg">
+      <div class="d-none d-md-block col-lg-6 mob-office-bg">
         <img src="/src/img/dogovor-doma.jpg" alt="Оформление договора на дому" loading="lazy">
       </div>
       <div class="col-lg-6 bg-green p-5">

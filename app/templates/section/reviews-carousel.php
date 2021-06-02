@@ -2,7 +2,7 @@
 
 
 
-  <div class="container reviews-wrapper mb-100 mt-100" id="reviews">
+  <div class="d-none d-md-block container reviews-wrapper mb-100 mt-100" id="reviews">
 
     <div class=" row mb-30">
         <div class="col-lg-8">

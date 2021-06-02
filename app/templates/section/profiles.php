@@ -8,10 +8,10 @@
         <p><?= $profile['sub_title'];  ?></p>
       </div>
       <div class="d-flex">
-        <div class="col-lg-6 ">
+        <div class="col-6 ">
           <img class="profile-img img-fluid" src="<?=$profile['img'];  ?>" alt="Фото профиля <?= $profile['title'] ?>" loading="lazy">
         </div>
-        <div class="col-lg-6 d-flex flex-wrap align-items-center">
+        <div class="col-6 d-flex flex-wrap align-items-center">
           <div class="profile-advantage d-flex align-items-center">
             <img src="<?=$profile['adv_1_img'];  ?>" alt="Преимущества пластиковых окон <?= $profile['adv_1_text'];  ?>" >
             <span><?= $profile['adv_1_text'];  ?></span>

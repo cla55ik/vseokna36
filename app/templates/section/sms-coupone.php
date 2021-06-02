@@ -1,7 +1,10 @@
 <div class="container sms-wrapper d-flex pb-100 pt-100 pl-110 pr-150">
   <div class="col-lg-7">
-    <h2 class="gray title-36">СМС-КУПОН НА СКИДКУ!</h2>
-    <p>Получите смс-сообщение с номером купона, назовите номер купона при общении с менеджером и получите дополнительную скидку на заказ.</p>
+    <h2 class="gray title-36 sms-text">СМС-КУПОН НА СКИДКУ!</h2>
+    <div class="d-flex d-md-none align-items-end sms-img-wrapper">
+      <img class=" sms-img img-fluid" src="/src/img/sms-coupone.png" alt="Смс купон на скидку">
+    </div>
+    <p class="sms-text-first">Получите смс-сообщение с номером купона, назовите номер купона при общении с менеджером и получите дополнительную скидку на заказ.</p>
     <p>Купон действителен в течение 50 дней</p>
     <div class="sms-form-wrapper">
       <div class="text-24 " id="result_sms">
@@ -21,7 +24,7 @@
       <span>Нажимая кнопку, вы даете согласие на обработку </span><a href="#">персональных данных</a>
     </div>
   </div>
-  <div class="col-lg-5 d-flex align-items-end">
+  <div class="d-none d-md-flex col-lg-5  align-items-end sms-img-wrapper">
     <img class=" sms-img img-fluid" src="/src/img/sms-coupone.png" alt="Смс купон на скидку">
   </div>
 </div>

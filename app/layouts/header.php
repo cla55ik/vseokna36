@@ -12,8 +12,9 @@
     <link rel="stylesheet" type="text/css" href="/src/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/src/css/style.css">
 
-    <!--Подключаем Шрифт-->
+    <!--Подключаем Шрифт
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    -->
 
     <!--VUE js-->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
@@ -32,13 +33,23 @@
 <header class="">
   <div class="container-fluid bg-light p-1">
     <div class="container d-flex flex-wrap pt-2 pb-2">
-      <div class="col-lg-3 head-logo d-flex align-items-center gray">
+      <div class="col-5 col-lg-3 head-logo d-flex align-items-center gray">
         <a class="d-flex align-items-center" href="/">
           <img src="/src/img/logo-color.svg" alt="Логотип салона окон Rehau">
           <span>САЛОН <br />ЭНЕРГОСБЕРЕГАЮЩИХ<br /> ТЕХНОЛОГИЙ</span>
         </a>
       </div>
-      <div class="col-lg-3 d-flex flex-wrap align-items-center gray">
+      <!-- Mobile -->
+      <div class="col-7 d-flex d-ls-none justify-content-end mobile-right-menu">
+        <div class="">
+          <a href="#"> <img src="/src/img/address.svg" alt="адрес салона окон"> </a>
+        </div>
+        <div class="">
+          <a href="tel:<?=$contacts['tel_link'] ;?>"> <img src="/src/img/phone.svg" alt="телефон салона окон"> </a>
+        </div>
+      </div>
+      <!-- End Mobile -->
+      <div class="d-none col-lg-3 d-md-flex flex-wrap align-items-center gray">
         <div class="d-flex head-grafik align-items-center pt-1 pb-1">
           <img class="img-fluid" src="/src/img/clock.svg" alt="График работы салона окон Rehau">
           <span>Пн-Пт 09:00-18:00, Сб 10:00-15:00</span>
@@ -48,21 +59,21 @@
           <a href="mailto:<?= $contacts['mail'];?>"><?= $contacts['mail'];?></a>
         </div>
       </div>
-      <div class="head-calc col-lg-3 d-flex align-items-center justify-content-center pink">
+      <div class="d-none d-md-flex head-calc col-lg-3  align-items-center justify-content-center pink">
         <a href="#calc" class="d-flex align-items-center ">
           <img src="/src/img/calculator.svg" alt="Калькулятор стоимости окон">
           <span class="pink">Калькулятор<br />стоимости</span>
 
         </a>
       </div>
-      <div class="head-contacts col-lg-3 d-flex flex-wrap justify-content-end">
+      <div class="d-none d-md-flex head-contacts col-lg-3  flex-wrap justify-content-end">
         <p class="m-0 gray text-14"><?= $contacts['address'];?></p>
         <a class="head-phone pink w-100 text-end" href="tel:<?= $contacts['tel_link'];?>"><?= $contacts['tel'];?></a>
         <a class="gray w-100 text-end gray text-16 head-modal-btn" href="#" onclick="modalVisible()">Заказать звонок</a>
       </div>
     </div>
   </div>
-  <div class="container-fluid bg-pink p-3">
+  <div class="d-none d-md-block container-fluid bg-pink p-3">
     <nav class="container head-nav">
       <ul class="nav justify-content-between">
       <?php foreach ($nav_items as $name => $link): ?>

@@ -1,6 +1,6 @@
   <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/objects/akciiController.php"); ?>
 
-<div class="container akcii-wrapper mt-100" id="akcii">
+<div class="d-none d-md-block container akcii-wrapper mt-100" id="akcii">
     <div class=" row">
         <div class="col-lg-8">
             <h2 class="title-36-cc">Действующие акции</h2>

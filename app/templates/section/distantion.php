@@ -1,8 +1,8 @@
 <div class="container-fluid d-flex p-0 distantion-wrapper">
-  <div class="col-lg-4">
+  <div class="d-none d-md-block col-lg-4">
     <img src="/src/img/distance-zamer.jpg" alt="Дистанционный замер">
   </div>
-  <div class="col-lg-8 bg-green">
+  <div class="col-12 col-lg-8 bg-green">
     <p class="white title-36-сс">Цените каждую минуту?</p>
     <p class="white text-24">Воспользуйтесь нашей новой услугой</p>
     <h2 class="white title-32-сс">Дистанционный замер!</h2>

@@ -4,7 +4,7 @@
   </h2>
 
     <div class="container d-flex quiz-section"  >
-      <div class="col-lg-8 quiz-wrapper" id="calculator">
+      <div class="col-12 col-lg-8 quiz-wrapper" id="calculator">
         <div class="" v-show="stepIndex===0">
           <div class="quiz-title pb-30">
             <h3>{{ quiz.steps[stepIndex].text }}</h3>
@@ -155,7 +155,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4 calculator-img p-0">
+      <div class="d-none d-md-block col-lg-4 calculator-img p-0">
         <img src="/src/img/okno-raschet.jpg" alt="Расчет стоимости окон онлайн" loading="lazy">
       </div>
     </div>
