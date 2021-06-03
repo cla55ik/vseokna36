@@ -12,13 +12,15 @@
                 <span>САЛОН <br />ЭНЕРГОСБЕРЕГАЮЩИХ<br /> ТЕХНОЛОГИЙ</span>
               </a>
             </div>
-            <div class="col-lg-5 d-flex justify-content-between align-items-start">
+            <div class="d-none d-lg-flex col-lg-5  justify-content-between align-items-start">
               <button class="btn-footer" type="button" name="btn-footer-price" onclick="modalVisible()">Узнать стоимость</button>
               <button class="btn-footer" type="button" name="btn-footer-price" onclick="modalVisible()">Бесплатный замер</button>
             </div>
-            <div class="col-lg-4 text-end pb-30">
+            <div class="col-lg-4 text-lg-end pb-30">
               <a class="white title-36" href="tel:<?= $contacts['tel_link']; ?>"><?=$contacts['tel'] ; ?></a>
               <a class="white text-20 text-end w-100" href="#" onclick="modalVisible()">Заказать звонок</a>
+              <p class="white mt-4 d-block d-lg-none"><?=$contacts['address'] ;?></p>
+              <a class="white d-block d-lg-none" href="mailto:<?=$contacts['mail'] ; ?>"><?= $contacts['mail'] ; ?></a>
             </div>
           </div>
           <div class="row footer-body pt-50 pb-40">
@@ -53,8 +55,8 @@
               </ul>
             </div>
             <div class="col-lg-3">
-              <p class="white m-0"><?=$contacts['address'] ;?></p>
-              <a class="white " href="mailto:<?=$contacts['mail'] ; ?>"><?= $contacts['mail'] ; ?></a>
+              <p class="white m-0 d-none d-lg-block"><?=$contacts['address'] ;?></p>
+              <a class="white d-none d-lg-block" href="mailto:<?=$contacts['mail'] ; ?>"><?= $contacts['mail'] ; ?></a>
               <p class="title-18 white pt-30">ПРИНИМАЕМ К ОПЛАТЕ</p>
               <div class="d-flex justify-content-between align-items-center methods-pay">
                 <img src="/src/img/mastercard.svg" alt="mastercard">

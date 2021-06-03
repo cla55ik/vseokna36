@@ -198,7 +198,22 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
   </div>
 
   <!-- Наши работы -->
-<?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/our-works.php"); ?>
+  <div class="d-none d-lg-block container p-0">
+    <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/our-works.php"); ?>
+  </div>
+  <div class="d-block d-lg-none container mb-70">
+    <div class="bg-green p-3 d-inline-block our-work-title">
+      <h2 class="title-24 white text-uppercase m-0">Наши работы</h2>
+    </div>
+
+    <div class="our-works-slider">
+      <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/our-works-mob.php"); ?>
+    </div>
+
+
+  </div>
+
+
 
   <!-- Отзывы -->
 <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/reviews-carousel.php"); ?>

@@ -1,4 +1,4 @@
-<div class="container-fluid modal-background" id="modal-background">
+<div class="modal-background" id="modal-background">
   <div class="modal-wrapper">
     <div class="modal-head d-flex justify-content-end">
       <span> <a href="" onclick="modalHide()">закрыть</a> </span>

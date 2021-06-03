@@ -40,7 +40,7 @@
         </a>
       </div>
       <!-- Mobile -->
-      <div class="col-7 d-flex d-ls-none justify-content-end mobile-right-menu">
+      <div class="col-7 d-flex d-md-none justify-content-end mobile-right-menu">
         <div class="">
           <a href="#"> <img src="/src/img/address.svg" alt="адрес салона окон"> </a>
         </div>

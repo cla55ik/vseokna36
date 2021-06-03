@@ -3,6 +3,15 @@
 
 window.onload=function() {
 
+/*Слайдер*/
+  let slider = document.querySelector('.wrk-slider');
+    sliderList = slider.querySelector('.wrk-slider-list');
+    sliderTrack = slider.querySelector('.wrk-slider-track');
+    slide = document.getElementsByClassName('wrk-slide');
+    sliderTrack.style.left = '0px';
+
+
+
 document.getElementById('modal-background').classList.add("modal-hide");
 
 
@@ -121,6 +130,34 @@ document.getElementById('modal-background').classList.add("modal-hide");
     });
 
 
+    var akciiMob = new Vue({
+      el:'#akcii-mob',
+      data: {
+        stest:akciiArray,
+        stepIndex: 0,
+      },
+      methods:{
+        next: function(){
+
+          if(this.stepIndex === (this.stest.length - 2)){
+            this.stepIndex = -1;
+          }
+          this.stepIndex++;
+        },
+        prev: function(){
+          if(this.stepIndex===0){
+            this.stepIndex = this.stest.length - 1;
+          }
+          this.stepIndex--;
+        }
+      },
+
+
+    });
+
+
+
+
     var reviews = new Vue({
       el: '#reviews',
       data:{
@@ -236,5 +273,54 @@ function senderForm(name){
     let modal = document.getElementById('modal-background');
     modal.classList.remove("modal-vis");
     modal.classList.add("modal-hide");
+
+  }
+
+
+
+
+  /*Слайдер Наши работы для Мобильного*/
+
+
+  function wrkNext(){
+    let length = slide.length;
+    let max = (length - 1) * 275;
+    let off = 275;
+    let position = parseInt(sliderTrack.style.left);
+    let next = 0;
+
+    console.log('pos '+position);
+
+    if (0-position < max) {
+      next = position - off + 'px';
+    }else{
+      next ='0px';
+    }
+
+    sliderTrack.style.left =next;
+
+
+  }
+
+  function wrkPrev(){
+    let length = slide.length;
+    let max =0- (length) * 275;
+    console.log(max);
+    let off = 275;
+    let position = parseInt(sliderTrack.style.left);
+    let next = 0;
+
+    console.log(position);
+
+    if (position > max && position < 0) {
+      next = position + off + 'px';
+    }else{
+      next = (max + 275) + 'px';
+    }
+
+
+    console.log('next= '+next);
+    sliderTrack.style.left =next;
+    //offset = offset * 2;
 
   }
