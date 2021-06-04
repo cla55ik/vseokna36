@@ -2308,7 +2308,7 @@ span.second.title-32{
 
 
   .review-card {
-    width: 32%;
+    width: 95%;
     -webkit-box-shadow: 2px 0px 15px 0px rgba(50, 50, 50, 0.4);
     -moz-box-shadow:    2px 0px 15px 0px rgba(50, 50, 50, 0.4);
     box-shadow:         2px 0px 15px 0px rgba(50, 50, 50, 0.4);
@@ -2319,10 +2319,10 @@ span.second.title-32{
   .review-img img{
     border-radius: 250px;
     object-fit: cover;
-    width: 150px;
-    height: 150px;
+    width: 90px;
+    height: 90px;
 
-    margin-right: 30px;
+    margin-right: 20px;
   }
 
 
@@ -2344,6 +2344,35 @@ span.second.title-32{
 
     line-height: 1.5em;
   }
+
+
+  .review-slider-wrapper{
+    position: relative;
+    z-index: 1;
+    margin-top: -70px;
+    justify-content: center !important;
+  }
+
+  .reviews-wrapper h2{
+    margin-bottom: 70px;
+  }
+
+  .control-button-review{
+    position: relative;
+    z-index: 2;
+  }
+
+  .control-button-review a{
+    margin: 0 20px;
+
+  }
+
+.control-button-review img{
+  width: 20px;
+  height: 20px;
+}
+
+
 
 
 
