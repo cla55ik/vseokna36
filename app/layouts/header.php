@@ -3,7 +3,15 @@
   <head>
     <meta charset="utf-8">
     <!-- Настройка viewport -->
+    <title><?=$page_title; ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="<?= $page_description; ?>" />
+    <meta property="og:title" content="<?= $page_title; ?>">
+    <meta property="og:image" content="<img class=" redactor-autoparser-object"="" src="https://site.ru...png">"/>
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://site.ru">
+    <meta property="og:description" content="<?= $page_description; ?>">
     <!-- Подключаем Bootstrap CSS
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     -->
@@ -26,7 +34,7 @@
     <!-- favicon -->
     <link type="image/x-icon" rel="shortcut icon" href="/src/img/favicon.svg">
 
-    <title><?=$page_title; ?></title>
+
   </head>
   <body>
 <?php include_once($_SERVER['DOCUMENT_ROOT']. "/config/options.php"); ?>

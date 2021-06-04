@@ -12,7 +12,24 @@ if (isset($_POST["phone"]) )
     }
     $phone = htmlspecialchars(trim($_POST['phone']));
     $floorType = htmlspecialchars(trim($_POST['floorType']));
-    mail("ivan5420@yandex.ru", "Заявка с сайта", "Телефон:".$phone . "<br />" . "Тип" . $floorType ,"From: no-reply@test.com \r\n");
+	$matType = htmlspecialchars(trim($_POST['matType']));
+	$profileName = htmlspecialchars(trim($_POST['profileName']));
+	$winWidth = htmlspecialchars(trim($_POST['winWidth']));
+	$winHeight = htmlspecialchars(trim($_POST['winHeight']));
+	$winType = htmlspecialchars(trim($_POST['winType']));
+
+    mail("ivan5420@yandex.ru", "Заявка с сайта",
+
+         "Тип помещения: " . $floorType . "\n"
+        . "Материал стен: " . $matType . "\n"
+        . "Тип остекления: " . $winType . "\n"
+        . "Профиль: " . $profileName . "\n"
+        . "Ширина: " . $winWidth ."\n"
+        . "Высота: " . $winHeight . "\n \n"
+        . "Телефон: ".$phone . "\n" 
+
+
+        ,"From: no-reply@test.com \r\n");
     echo 'Заявка отправлена. Спасибо!';
     	return;
     }

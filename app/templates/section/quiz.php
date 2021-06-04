@@ -195,37 +195,42 @@
           <div class="quiz-title pb-30">
             <h3>{{ quiz.steps[stepIndex].text }}</h3>
           </div>
-          <div class="pb-30 d-flex justify-content-between text-center ">
-            <div class="calc-profile">
-              <input type="radio" id="blitz" value="Blitz" v-model="profileName">
-              </input>
-              <label for="blitz">Blitz</label>
+          <div class="pb-30 d-flex justify-content-between quiz-profile title-18">
+            <div class="col-6">
+              <div class="calc-profile">
+                <input type="radio" id="blitz" value="Blitz" v-model="profileName">
+                </input>
+                <label for="blitz">Blitz</label>
+              </div>
+              <div class="calc-profile">
+                <input type="radio" id="grazio" value="Grazio" v-model="profileName">
+                </input>
+                <label for="grazio">Grazio</label>
+              </div>
+              <div class="calc-profile">
+                <input type="radio" id="delight" value="Delight" v-model="profileName">
+                </input>
+                <label for="delight">Delight</label>
+              </div>
             </div>
-            <div class="calc-profile">
-              <input type="radio" id="grazio" value="Grazio" v-model="profileName">
-              </input>
-              <label for="grazio">Grazio</label>
+            <div class="col-6">
+              <div class="calc-profile">
+                <input type="radio" id="brilliant" value="Brilliant" v-model="profileName">
+                </input>
+                <label for="brilliant">Brilliant</label>
+              </div>
+              <div class="calc-profile">
+                <input type="radio" id="geneo" value="Geneo" v-model="profileName">
+                </input>
+                <label for="geneo">Geneo</label>
+              </div>
+              <div class="calc-profile">
+                <input type="radio" id="intellio" value="Intellio" v-model="profileName">
+                </input>
+                <label for="intellio">Intellio</label>
+              </div>
             </div>
-            <div class="calc-profile">
-              <input type="radio" id="delight" value="Delight" v-model="profileName">
-              </input>
-              <label for="delight">Delight</label>
-            </div>
-            <div class="calc-profile">
-              <input type="radio" id="brilliant" value="Brilliant" v-model="profileName">
-              </input>
-              <label for="brilliant">Brilliant</label>
-            </div>
-            <div class="calc-profile">
-              <input type="radio" id="geneo" value="Geneo" v-model="profileName">
-              </input>
-              <label for="geneo">Geneo</label>
-            </div>
-            <div class="calc-profile">
-              <input type="radio" id="intellio" value="Intellio" v-model="profileName">
-              </input>
-              <label for="intellio">Intellio</label>
-            </div>
+
 
           </div>
           <div class="quiz-button">
@@ -238,13 +243,13 @@
             <h3>{{ quiz.steps[stepIndex].text }}</h3>
           </div>
           <div class="calc-range">
-            <label for="win-width">Ширина, мм</label>
+            <label class="w-100" for="win-width">Ширина, мм</label>
             <input type="range" min="400" max="8000" step="50" value="1400" id="win-width"  v-model="winWidth">
             </input>
             <span v-show="winWidth != ''">{{ winWidth }}</span>
           </div>
           <div class="calc-range">
-            <label for="win-width">Высота, мм</label>
+            <label class="w-100" for="win-width">Высота, мм</label>
             <input type="range" min="400" max="4000" step="50" value="1400" id="win-height"  v-model="winHeight">
             </input>
             <span v-show="winHeight != ''">{{ winHeight }}</span>
@@ -266,7 +271,7 @@
             </div>
             <div class="text-16 font-weight-bold pink" id="novalid_calc">
             </div>
-            <form id="form_cta_calc" class="form-inline d-flex flex-wrap mt-4" v-on:submit.prevent="send">
+            <form id="form_cta_calc" class="form-inline d-flex flex-wrap mt-4" v-on:submit.prevent="send" v-show="sendDone != 'Заявка отправлена. Спасибо!'">
               <div class="col-lg-7">
                 <input v-model="phoneForm" class="phone phone-calc" type="text" name="phone" value="" placeholder="+7 --- --- -- --" required>
               </div>

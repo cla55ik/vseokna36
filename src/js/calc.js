@@ -120,14 +120,19 @@ var quiz = {
           data: {
             phone: this.phoneForm,
             floorType: this.floorType,
+            matType: this.matType,
+            winWidth: this.winWidth,
+            winHeight:this.winHeight,
+            winType:this.winType,
+            profileName:this.profileName,
 
           }
 
+
+        }).then(response => {
+          this.sendDone = response.data;
           
-        }).then(function(response) {
-          this.sendDone = data.data;
-          console.log('sendDone = ' + this.sendDone);
-          console.log ('sss'+this.data);
+
           return this.sendDone;
 
 
@@ -141,7 +146,7 @@ var quiz = {
           return this.sendDone;
         });
 
-        return this.sendDone;;
+        //return this.sendDone;
       }
     },
   });
