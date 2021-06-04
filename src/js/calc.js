@@ -1,3 +1,5 @@
+
+
 var quiz = {
   steps:[
     {
@@ -121,7 +123,7 @@ var quiz = {
 
           }
 
-          return this.sendDone;
+          
         }).then(function(response) {
           this.sendDone = data.data;
           console.log('sendDone = ' + this.sendDone);
