@@ -73,24 +73,10 @@ var quiz = {
       profileName:null,
       phoneForm:null,
       err:null,
+      sendDone:null,
     },
     methods: {
-      getAllData: function(){
-        calcData = [];
-        calcData.push(this.floorType);
-        calcData.push(this.matType);
-        calcData.push(this.winWidth);
-        calcData.push(this.winHeight);
-        calcData.push(this.profileName);
-        calcData.push(this.winType);
-        //console.log(this.phoneForm);
-        calcData.push(this.phoneForm);
-        console.log(calcData);
-
-        return calcData;
-
-      },
-      next: function() {
+        next: function() {
         this.stepIndex++;
 
 
@@ -106,28 +92,25 @@ var quiz = {
           return false;
           //$(novalidId).html('Неверный номер телефона');
         }else{
-          this.err = null;
+            this.err = null;
           return true;
         //  $(novalidId).html('Номер ОК');
         }
       },
       send: function(){
+        if(this.validation(this.phoneForm)){
 
+          this.submitCalc();
+          return this.err;
 
-        let calcArr = this.getAllData();
-        console.log('calcArr = '+calcArr);
-        let phone = calcArr[6];
-        if(this.validation(phone)){
-          console.log('Valid');
-          this.submitTest();
         }else{
-          console.log('novalid phone');
+
           return;
         };
 
       },
-      submitTest() {
-        console.log('Test start');
+      submitCalc() {
+
         axios({
           method: 'post',
           headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -137,17 +120,26 @@ var quiz = {
             floorType: this.floorType,
 
           }
-        }).then(function(data) {
-          this.err = data;
-          console.log('err = ' + this.err);
-          console.log('data = ' + data);
+
+          return this.sendDone;
+        }).then(function(response) {
+          this.sendDone = data.data;
+          console.log('sendDone = ' + this.sendDone);
+          console.log ('sss'+this.data);
+          return this.sendDone;
+
+
 
 
         })
         // Если запрос с ошибкой
         .catch(function (error) {
+          this.sendDone = "Возникла ошибка, попробуйте еще раз";
           console.log(error);
+          return this.sendDone;
         });
+
+        return this.sendDone;;
       }
     },
   });

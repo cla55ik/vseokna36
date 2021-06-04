@@ -259,7 +259,7 @@
             <h3>{{ quiz.steps[stepIndex].text }}</h3>
           </div>
           <div class="error-calc title-18">
-            {{ err }}
+            {{ err }} {{ sendDone }}
           </div>
           <div class="calc-form">
             <div class="text-24 green" id="result_calc">
