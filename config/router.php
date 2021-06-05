@@ -9,7 +9,7 @@ $uri = getRequestPath();
 
 if($uri === '/')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/main.php");
-elseif($uri === '/balkon')
+elseif($uri === '/osteklenie-balkonov-i-lodzhij-v-voronezhe')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/balkon.php");
 else
     require($_SERVER['DOCUMENT_ROOT']. "/app/templates/404.php");

@@ -1,7 +1,9 @@
 <?php
 
-$page_title = 'Пластиковые окна Rehau в Воронежеw';
+
+$page_title = 'Пластиковые окна Rehau в Воронеже';
 $page_description = 'Изготовление, доставка и установка пластиковых окон РЕХАУ от официального партнера в Воронеже! Купить окна с гарантией от производителя.';
+$img_og = 'https://dev.vseokna36.ru/src/img/main-og.jpg';
 include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
  ?>
 

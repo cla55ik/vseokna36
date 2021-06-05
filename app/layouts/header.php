@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+
+<?php
+$url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+$url = explode('?', $url);
+$url = $url[0];
+ ?>
 <html lang="ru" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -6,11 +12,11 @@
     <title><?=$page_title; ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <meta name="description" content="<?= $page_description; ?>" />
-    <meta property="og:title" content="<?= $page_title; ?>">
-    <meta property="og:image" content="<img class=" redactor-autoparser-object"="" src="https://site.ru...png">"/>
+    <meta name="description" content="<?= $page_description;?>">
+    <meta property="og:title" content="<?= $page_title;?>">
+    <meta property="og:image" content="<?=$img_og ; ?>"/>
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://site.ru">
+    <meta property="og:url" content="<?=$url;?>">
     <meta property="og:description" content="<?= $page_description; ?>">
     <!-- Подключаем Bootstrap CSS
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
