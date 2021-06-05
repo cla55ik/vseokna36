@@ -76,5 +76,5 @@
 
 
 <script>
-  reviewsArray = <?php echo json_encode($all_reviews); ?>
+  var reviewsArray = <?php echo json_encode($all_reviews); ?>
 </script>

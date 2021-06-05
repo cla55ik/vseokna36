@@ -5,10 +5,11 @@
   <div class="col-10 wrk-slider">
     <div class=" wrk-slider-list">
       <div class="wrk-slider-track d-flex">
-        <?php for($i=1; $i<=9; $i++): ?>
+        <?php
+        for($i=1; $i<=$n; $i++): ?>
 
         <div class="wrk-slide">
-          <img src="/src/img/foto-rabot-0<?=$i ; ?>.jpg" alt="Остекление частного дома" loading="lazy">
+          <img src="/src/img/<?=$img_work;?>0<?=$i ; ?>.jpg" alt="Остекление частного дома" loading="lazy">
         </div>
       <?php endfor; ?>
 

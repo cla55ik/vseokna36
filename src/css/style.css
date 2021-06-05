@@ -202,6 +202,7 @@ input.bg-green:hover{
   background-color: #f2f2f2;
 }
 
+
 .bg-gray{
   background-color: var(--gray);
 }
@@ -347,18 +348,17 @@ input.bg-green:hover{
   text-transform: uppercase;
 }
 
-.title-36-сс{
+h2.title-36-сс, h3.title-36-сс, .title-36-сс{
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 700 !important;
   line-height: 1.3em;
 
 }
 
 
-.title-32-сс{
-  font-size: 32px;
+h2.title-32-сс, h3.title-32-сс, .title-32-сс{
+  font-size: 32px !important;
   font-weight: 700;
-
 }
 
 .title-42{
@@ -718,7 +718,22 @@ div.card-item-round{
 }
 
 
+
+
+
+
 /*Калькулятор*/
+
+.calc-profile {
+    margin: 15px 0px;
+}
+
+.calc-range {
+    margin-bottom: 20px;
+}
+
+
+
 
 .calculator-img{
   border: 15px solid var(--green);
@@ -1213,17 +1228,114 @@ footer a.nav-link:hover{
 }
 
 
+/*Консультация*/
+
+input.phone-consult.w-100, input.name-consult.w-100 {
+    width: 100%;
+    background-color: #FFFFFF99;
+    border-color: #FFFFFF9E;
+    border-width: 1px 0 0;
+    border-radius: 0;
+    line-height: 1.4;
+    font-size: 16px;
+    padding: 10px;
+}
 
 
+/*Балкон*/
+
+.main-balkon {
+  background-image: url(/src/img/bg-balkon.jpg);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+
+}
+
+.main-balkon-layout {
+
+  background: linear-gradient(90deg, rgba(255,255,255,1) 45%, rgba(255,255,255,0) 75%);
+}
 
 
+.balkon-profiles-card{
+  width: 32% !important;
+  padding: 25px;
+  box-shadow: 2px 2px 4px 0px rgb(0 0 0 / 50%);
+}
 
 
+.balkon-profiles-card img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+
+}
+
+.balkon-profiles-img{
+  padding: 10px 30px;
+}
+
+.balkon-profiles-card p{
+  color: #828282;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.balkon-profiles-card h3{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.balkon-profiles-price span{
+  font-size: 28px;
+  font-weight: 700
+}
+
+.balkon-profiles-price a{
+  text-decoration: underline !important;
+  border-color: #c42f65;
+  color: #c42f65 !important;
+
+}
 
 
+.balkon-profiles-price a:hover{
+  cursor: pointer;
+}
+
+.balkon-profiles-text p{
+  font-size: 14px;
+}
 
 
+.balkon-profiles-text {
+    margin-top: 10px;
+    padding-top: 15px;
+    border-top: 1px solid #e4e4e4;
+}
 
+.balkon-profiles-card-warm{
+
+
+  box-shadow: 2px 2px 4px 0px rgb(0 0 0 / 50%);
+}
+
+
+.balkon-profiles-card-warm p{
+  font-size: 14px;
+  color: #828282;
+}
+
+.balkon-warm-text{
+  padding: 25px;
+}
+
+
+.balkon-warm-img img {
+  height: 100%;
+  object-fit: cover;
+}
 
 
 
@@ -1907,6 +2019,10 @@ span.second.title-32{
     line-height: 1.5em;
   }
 
+  .card-item-round img{
+    width: 90px;
+  }
+
   .advant-round-wrapper {
     padding: 35px 15px !important;
   }
@@ -1992,7 +2108,25 @@ span.second.title-32{
   }
 
 
+  /*С нами просто | Этапы шаги */
+
+  .steps-card.text-center{
+      margin-bottom: 25px;
+  }
+
+
+
   /*Калькулятор*/
+
+  .calc-profile {
+    margin: 15px 0px;
+}
+
+.calc-range {
+  margin-bottom: 20px;
+}
+
+
 
   .calculator-img{
     border: 15px solid var(--green);
@@ -2042,7 +2176,7 @@ span.second.title-32{
 
 
   .quiz-wrapper .d-flex{
-    width: 60%;
+    width: 100%;
   }
 
 
@@ -2654,6 +2788,125 @@ span.second.title-32{
     position: relative;
     z-index: 1;
     margin-top: -50px;
+  }
+
+
+  /*Консультация*/
+
+  input.phone-consult.w-100, input.name-consult.w-100 {
+      width: 100%;
+      background-color: #FFFFFF99;
+      border-color: #FFFFFF9E;
+      border-width: 1px 0 0;
+      border-radius: 0;
+      line-height: 1.4;
+      font-size: 16px;
+      padding: 10px;
+  }
+
+
+
+
+  /*Балкон*/
+
+  .main-balkon {
+    background-image: url(/src/img/bg-balkon.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+
+  }
+
+  .main-balkon-layout {
+
+    background: linear-gradient(70deg, rgba(255,255,255,1) 40%, rgba(255,255,255,0) 75%);
+  }
+
+
+  .balkon-profiles-card{
+    width: 100% !important;
+    padding: 25px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 4px 0px rgb(0 0 0 / 50%);
+  }
+
+
+  .balkon-profiles-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+
+  }
+
+  .balkon-profiles-img{
+    padding: 10px 30px;
+  }
+
+  .balkon-profiles-card p{
+    color: #828282;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .balkon-profiles-card h3{
+    font-size: 20px;
+    font-weight: 600;
+
+  }
+
+  .balkon-profiles-price span{
+    font-size: 28px;
+    font-weight: 700
+  }
+
+  .balkon-profiles-price a{
+    text-decoration: underline !important;
+    border-color: #c42f65;
+    color: #c42f65 !important;
+
+  }
+
+
+  .balkon-profiles-price a:hover{
+    cursor: pointer;
+  }
+
+  .balkon-profiles-text p{
+    font-size: 14px;
+  }
+
+
+  .balkon-profiles-text {
+      margin-top: 10px;
+      padding-top: 15px;
+      border-top: 1px solid #e4e4e4;
+  }
+
+  .balkon-profiles-card-warm{
+
+
+    box-shadow: 2px 2px 4px 0px rgb(0 0 0 / 50%);
+  }
+
+
+
+
+  .balkon-profiles-card-warm p{
+      margin-top: 20px;
+      margin-bottom: 20px;
+    font-size: 14px;
+    color: #828282;
+  }
+
+  .balkon-warm-text{
+    padding: 25px;
+  }
+
+
+  .balkon-warm-img img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
   }
 
 

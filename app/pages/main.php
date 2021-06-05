@@ -126,13 +126,15 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
       <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/green-cta-section.php"); ?>
     </div>
   </div>
-
+  <?php $calc_title_1 = 'УЗНАЙТЕ ТОЧНУЮ ';
+        $calc_title_2 = 'СТОИМОСТЬ ОКОН ';
+   ?>
     <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/quiz.php"); ?>
 
   <div class="container dt-50 pb-50">
     <h2 class=" title-32 text-center">С НАМИ КУПИТЬ ОКНО ПРОСТО</h2>
   </div>
-  <div class="container d-flex flex-wrap justify-content-between pb-100">
+  <div class="container d-flex flex-wrap justify-content-around pb-100">
     <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/steps-easy-buy.php"); ?>
   </div>
   <div class="container pb-100">
@@ -202,6 +204,9 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
 
   <!-- Наши работы -->
   <div class="d-none d-lg-block container p-0">
+    <?php $img_work = 'foto-rabot-';
+          $n = 9;
+          ?>
     <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/our-works.php"); ?>
   </div>
   <div class="d-block d-lg-none container mb-70">

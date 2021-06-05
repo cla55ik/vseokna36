@@ -3,6 +3,11 @@
 
 window.onload=function() {
 
+
+
+
+
+
 /*Слайдер*/
   let slider = document.querySelector('.wrk-slider');
     sliderList = slider.querySelector('.wrk-slider-list');
@@ -16,6 +21,12 @@ document.getElementById('modal-background').classList.add("modal-hide");
 
 
 
+
+
+
+
+
+}
 
 
 
@@ -124,10 +135,6 @@ document.getElementById('modal-background').classList.add("modal-hide");
     });
 
 
-
-
-
-}
 
 
 

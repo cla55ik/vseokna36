@@ -1,6 +1,6 @@
 <div class="container pb-70" id="calc">
   <h2 class="title-32  text-center mb-70">
-    УЗНАЙТЕ ТОЧНУЮ <span class="pink">СТОИМОСТЬ ОКОН</span> ЗА 3 МИНУТЫ!
+    <?=$calc_title_1; ?> <span class="pink"><?=$calc_title_2; ?></span> ЗА 3 МИНУТЫ!
   </h2>
 
 
@@ -123,7 +123,7 @@
           <div class="quiz-title pb-30">
             <h3>{{ quiz.steps[stepIndex].text }}</h3>
           </div>
-          <div class="pb-30 d-flex justify-content-between text-center ">
+          <div class="pb-30 d-flex flex-wrap justify-content-evently text-center ">
             <div class="">
               <label for="winone">
                 <div class="quiz-img">

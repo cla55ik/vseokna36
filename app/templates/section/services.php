@@ -1,7 +1,7 @@
 <div class="row wrapper pt-70 justify-content-between">
   <div class="services-card-okna services-card d-flex justify-content-center align-items-end align-content-end">
     <div class="d-flex services-white">
-      <a href="#">
+      <a href="/">
         <span class="d-flex">
           <img src="/src/img/window-pink.svg" alt="Пластиковые окна">
           <span class="text-uppercase">окна<br />rehau</span>
@@ -11,7 +11,7 @@
   </div>
   <div class="services-card-balkon services-card d-flex justify-content-center align-items-end align-content-end">
     <div class="d-flex services-white">
-      <a href="/balkon">
+      <a href="/osteklenie-balkonov-i-lodzhij-v-voronezhe">
         <span class="d-flex">
           <img src="/src/img/balkon-pink.svg" alt="Остекление балконов">
           <span class="text-uppercase">балконы<br />лоджии</span>
