@@ -1338,6 +1338,49 @@ input.phone-consult.w-100, input.name-consult.w-100 {
 }
 
 
+/*Окна для домов коттеджей*/
+
+.main-kottedzh {
+  background-image: url(/src/img/bg-kottedzh.jpg);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+
+}
+
+.main-kottedzh-layout {
+
+  background: linear-gradient(90deg, rgba(255,255,255,1) 45%, rgba(255,255,255,0) 75%);
+}
+
+
+.dom-card {
+  width: 30%;
+}
+
+.dom-card h3{
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.dom-card div{
+  font-size: 28px;
+  font-weight: 600;
+  color: #fff;
+  background-color: var(--green);
+  padding: 10px 0;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2908,6 +2951,33 @@ span.second.title-32{
     width: 100%;
     object-fit: cover;
   }
+
+
+
+  /* Дом коттедж*/
+
+
+  .dom-card {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .dom-card h3{
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .dom-card div{
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    background-color: var(--green);
+    padding: 10px 0;
+  }
+
 
 
 }

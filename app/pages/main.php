@@ -157,6 +157,9 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
     <div class="container">
       <h2 class="gray title-36">ПРОДУКЦИЯ REHAU СЕРТИФИЦИРОВАНА</h2>
     </div>
+    <div class="d-block d-lg-none">
+      <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/sertificate-mob.php");   ?>
+    </div>
     <div class="d-none d-lg-flex container sertificat-wrapper justify-content-between pt-70">
       <div class="sert-item">
         <img src="/src/img/sert01.jpeg" alt="Сертификат продукции Rehau 01" loading="lazy">
