@@ -10,7 +10,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/objects/akciiController.php");
 
  <main class="container-fluid  p-0">
    <div class="container pt-70 pb-50 akcii-page-wrapper">
-     <h2 class="title-32">Действующие акции на пластиковые окна</h2>
+     <h1 class="title-32">Действующие акции на пластиковые окна</h1>
      <p>Наша компания предоставляет дополнительные скидки на окна в Воронеже. Подберите подходящую для вас акцию на остекление.</p>
    </div>
 
@@ -24,8 +24,8 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/objects/akciiController.php");
 
         <div class="akciya-body  p-5" >
 
-           <h3 class="text-24 white mb-30">{{ s.title }}</h3>
-           <h4 class="text-18 white">{{ s.sub_title }}</h4>
+           <h2 class="text-24 white mb-30">{{ s.title }}</h2>
+           <h3 class="text-18 white">{{ s.sub_title }}</h3>
            <ul class="white">
                <li v-show="s.item_1 != ''">{{ s.item_1 }}</li>
                <li v-show="s.item_2 != ''">{{ s.item_2 }}</li>
