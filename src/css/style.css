@@ -1385,8 +1385,102 @@ input.phone-consult.w-100, input.name-consult.w-100 {
   object-fit: cover;
 }
 
+/*Утепление и отделка*/
+
+.main-uteplenie {
+  background-image: url(/src/img/bg-uteplenie.jpg);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+
+}
+
+.main-uteplenie-layout {
+
+  background: linear-gradient(90deg, rgba(255,255,255,1) 45%, rgba(255,255,255,0) 75%);
+}
 
 
+.uteplenie-price h3{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table-price{
+  margin-bottom: 15px;
+}
+
+
+/*FAQ ответы и вопросы*/
+
+.faq-icon img{
+  width: 12px;
+  margin-right: 10px;
+  height: auto;
+  object-fit: contain;
+}
+
+.faq-title-in h3{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.faq-wrapper{
+  padding: 15px;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.faq-text{
+  padding-top: 15px;
+  transition: ease 1s linear;
+
+}
+.balkon-do-posle{
+  min-height: 400px;
+  margin-top:-65px;
+  position: relative;
+  z-index: 1;
+}
+
+.balkon-do{
+  background-image: url(/src/img/balkon-do.jpeg);
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+}
+
+.balkon-posle{
+  background-image: url(/src/img/balkon-posle.jpeg);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+}
+
+.text-do-posle span{
+  background-color: var(--green);
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 7px 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.text-do-posle-mob {
+  position: relative;
+  z-index: 2;
+  margin-top: -60px;
+  margin-bottom: 60px;
+}
+
+.text-do-posle-mob span{
+  background-color: var(--green);
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 7px 20px;
+
+}
 
 
 
@@ -3064,6 +3158,16 @@ span.second.title-32{
     margin-top: 30px;
   }
 
+
+  /*Утепление и отделка*/
+
+  .uteplenie-price h3{
+    margin-bottom: 30px;
+  }
+
+  .balkon-warm-img {
+    margin-top: 30px;
+  }
 
 
 }

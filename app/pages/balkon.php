@@ -9,7 +9,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
 
 <main class="container-fluid p-0">
   <div class="container-fluid main-balkon p-0">
-    <div class="main-kottedzh-layout">
+    <div class="main-balkon-layout">
       <div class="container main-balkon-content pt-100 pb-90">
         <div class="col-lg-7 h1-block">
           <h1>
