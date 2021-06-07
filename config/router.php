@@ -16,7 +16,9 @@ elseif($uri === '/okna-dlya-kottedzhej-i-zagorodnyh-domov-v-voronezhe')
 elseif($uri === '/proizvodstvo-okon-v-voronezhe')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/zavod.php");
 elseif($uri === '/otdelka-i-uteplenie-balkonov-i-lodzhij-v-voronezhe')
-    require($_SERVER['DOCUMENT_ROOT']. "/app/pages/uteplenie.php");          
+    require($_SERVER['DOCUMENT_ROOT']. "/app/pages/uteplenie.php");
+elseif($uri === '/detskiye-zamki-na-okna')
+    require($_SERVER['DOCUMENT_ROOT']. "/app/pages/deti.php");          
 else
     require($_SERVER['DOCUMENT_ROOT']. "/app/templates/404.php");
 

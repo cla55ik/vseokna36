@@ -1483,6 +1483,81 @@ input.phone-consult.w-100, input.name-consult.w-100 {
 }
 
 
+/*Детская безопасность*/
+
+.deti-main-text{
+  padding-right: 50px;
+}
+
+.deti-img button{
+  background-color: var(--green);
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 7px 15px;
+  border: none;
+  transition: .5s;
+
+}
+
+.deti-img button:hover{
+  background-color: var(--pink);
+  transition: .5s
+}
+
+.deti-list{
+  position: sticky;
+  top:20px;
+}
+
+.deti-title h3{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2em;
+  margin-bottom: 30px;
+}
+
+
+.babysafe{
+  background-color: #c2507a;
+
+}
+
+.babysafe-text{
+  padding-right: 40px;
+}
+
+.babysafe h3{
+  margin-bottom: 40px;
+}
+
+.babysafe p{
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+
+
+
+
+.deti-list div{
+  padding: 5px 0px;
+}
+
+.deti-list a{
+  font-weight: 500;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
