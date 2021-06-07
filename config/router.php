@@ -12,7 +12,9 @@ if($uri === '/')
 elseif($uri === '/osteklenie-balkonov-i-lodzhij-v-voronezhe')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/balkon.php");
 elseif($uri === '/okna-dlya-kottedzhej-i-zagorodnyh-domov-v-voronezhe')
-    require($_SERVER['DOCUMENT_ROOT']. "/app/pages/kottedzh.php");    
+    require($_SERVER['DOCUMENT_ROOT']. "/app/pages/kottedzh.php");
+elseif($uri === '/proizvodstvo-okon-v-voronezhe')
+    require($_SERVER['DOCUMENT_ROOT']. "/app/pages/zavod.php");          
 else
     require($_SERVER['DOCUMENT_ROOT']. "/app/templates/404.php");
 

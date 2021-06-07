@@ -8,12 +8,23 @@ window.onload=function() {
 
 
 
-/*Слайдер*/
+/*Слайдер Работы*/
+if(document.querySelector('.wrk-slider')){
   let slider = document.querySelector('.wrk-slider');
     sliderList = slider.querySelector('.wrk-slider-list');
     sliderTrack = slider.querySelector('.wrk-slider-track');
     slide = document.getElementsByClassName('wrk-slide');
     sliderTrack.style.left = '0px';
+}
+
+/*Слайдер сертификаты*/
+if(document.querySelector('.sert-slider')){
+  let sliderSert = document.querySelector('.sert-slider');
+    sliderSertList = sliderSert.querySelector('.sert-slider-list');
+    sliderSertTrack = sliderSert.querySelector('.sert-slider-track');
+    slideSert = document.getElementsByClassName('sert-slide');
+    sliderSertTrack.style.left = '0px';
+}
 
 
 
@@ -300,7 +311,7 @@ function senderForm(name){
   }
 
   function wrkPrev(){
-    let length = slide.length;
+    let length = slideSert.length;
     let max =0- (length) * 275;
     console.log(max);
     let off = 275;
@@ -318,6 +329,55 @@ function senderForm(name){
 
     console.log('next= '+next);
     sliderTrack.style.left =next;
+    //offset = offset * 2;
+
+  }
+
+
+
+
+  /*Слайдер Сертификаты для Мобильного*/
+
+
+  function sertNext(){
+    let length = slideSert.length;
+    let max = (length - 1) * 275;
+    let off = 275;
+    let position = parseInt(sliderSertTrack.style.left);
+    let next = 0;
+
+    console.log('pos '+position);
+
+    if (0-position < max) {
+      next = position - off + 'px';
+    }else{
+      next ='0px';
+    }
+
+    sliderSertTrack.style.left =next;
+
+
+  }
+
+  function sertPrev(){
+    let length = slideSert.length;
+    let max =0- (length) * 275;
+    console.log(max);
+    let off = 275;
+    let position = parseInt(sliderSertTrack.style.left);
+    let next = 0;
+
+    console.log(position);
+
+    if (position > max && position < 0) {
+      next = position + off + 'px';
+    }else{
+      next = (max + 275) + 'px';
+    }
+
+
+    console.log('next= '+next);
+    sliderSertTrack.style.left = next;
     //offset = offset * 2;
 
   }

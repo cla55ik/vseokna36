@@ -217,7 +217,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
       <h2 class="title-24 white text-uppercase m-0">Наши работы</h2>
     </div>
 
-    <div class="our-works-slider">
+    <div class="our-works-slide">
       <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/our-works-mob.php"); ?>
     </div>
 

@@ -1377,7 +1377,13 @@ input.phone-consult.w-100, input.name-consult.w-100 {
 
 
 
+/*Завод Производство*/
 
+.zavod-content img{
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
 
 
 
@@ -2834,6 +2840,78 @@ span.second.title-32{
   }
 
 
+
+/*Слайдер Сертификаты*/
+
+.sert-slider{
+  position: relative;
+  width: 245px;
+  height: 340px;
+  margin: 20px auto;
+
+  user-select: none;
+  touch-action: pan-y;
+
+}
+
+.sert-slider img {
+  poiner-events: none;
+}
+
+
+.sert-slider-list {
+  width: 245px;
+  height: 340px;
+  overflow: hidden;
+}
+
+.sert-slide {
+  width: 245px;
+  height: 340px;
+  /* Чтобы слайды не сжимались */
+  flex-shrink: 0;
+  /* Увеличиваем и центрируем цифру внутри слайда */
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.sert-slide img{
+  width: 245px;
+  height: 340px;
+  object-fit: contain;
+}
+
+.sert-slide{
+  margin: 0px 15px;
+}
+
+
+
+.sert-slider-track{
+  position: relative;
+  left: 0px;
+  transition: all ease .7s;
+}
+
+.our-work-title{
+  position: relative;
+  z-index: 2;
+
+}
+
+.our-works-slider{
+  position: relative;
+  z-index: 1;
+  margin-top: -50px;
+}
+
+
+
+
+
   /*Консультация*/
 
   input.phone-consult.w-100, input.name-consult.w-100 {
@@ -2976,6 +3054,14 @@ span.second.title-32{
     color: #fff;
     background-color: var(--green);
     padding: 10px 0;
+  }
+
+
+
+  /*Производство Завод*/
+
+  .zavod-text{
+    margin-top: 30px;
   }
 
 
