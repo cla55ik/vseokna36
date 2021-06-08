@@ -311,7 +311,7 @@ function senderForm(name){
   }
 
   function wrkPrev(){
-    let length = slideSert.length;
+    let length = slide.length;
     let max =0- (length) * 275;
     console.log(max);
     let off = 275;

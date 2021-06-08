@@ -20,14 +20,30 @@ class Profiles{
     return $array;
   }
 
-  public function getOne($id)
+  public function getOne($u)
   {
-    $sql = "SELECT * FROM " . $this->table_name . "WHERE id = ?";
+    $sql = "SELECT * FROM profile WHERE url = ?";
     $stmt = $this->conn->prepare($sql);
-    $stmt->execute([$id]);
+    $stmt->execute([$u]);
 
     $profile = $stmt->fetch();
 
+    return $profile;
+  }
+
+  public function getUrl()
+  {
+    $sql = "SELECT url FROM profile WHERE id = 1";
+    $stmt = $this->conn->query($sql);
+    $profile = $stmt->fetch();
+    return $profile;
+  }
+
+  public function getID($u){
+    $sql = "SELECT id FROM profile WHERE url = ?";
+    $stmt = $this->conn->prepare($sql);
+    $stmt->execute([$u]);
+    $profile = $stmt->fetch();
     return $profile;
   }
 

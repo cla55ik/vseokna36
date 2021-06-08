@@ -25,6 +25,20 @@ elseif($uri === '/akcii-i-skidki-na-plastikovye-okna')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/akcii.php");
 elseif($uri === '/czeny-na-okna-v-voronezhe')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/ceni-okna.php");
+elseif($uri === '/okonnye-profili-rehau')
+    require($_SERVER['DOCUMENT_ROOT']. "/app/pages/profile.php");
+elseif($uri === '/okonnye-profili-rehau/rehau-blitz')
+    require($_SERVER['DOCUMENT_ROOT']. "/app/pages/template-profile.php");
+elseif($uri === '/okonnye-profili-rehau/rehau-grazio')
+    require($_SERVER['DOCUMENT_ROOT']. "/app/pages/template-profile.php");
+elseif($uri === '/okonnye-profili-rehau/rehau-brillant')
+    require($_SERVER['DOCUMENT_ROOT']. "/app/pages/template-profile.php");
+elseif($uri === '/okonnye-profili-rehau/rehau-delight')
+    require($_SERVER['DOCUMENT_ROOT']. "/app/pages/template-profile.php");
+elseif($uri === '/okonnye-profili-rehau/rehau-geneo')
+    require($_SERVER['DOCUMENT_ROOT']. "/app/pages/template-profile.php");
+elseif($uri === '/okonnye-profili-rehau/rehau-intellio')
+    require($_SERVER['DOCUMENT_ROOT']. "/app/pages/template-profile.php");
 else
     require($_SERVER['DOCUMENT_ROOT']. "/app/templates/404.php");
 

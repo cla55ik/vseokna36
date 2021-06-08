@@ -124,7 +124,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
 
             <div class="d-flex balkon-profiles-price justify-content-between align-items-center">
               <span class="pink">от 5400 ₽</span>
-              <a onclick="modalVisible()">Подробнее</a>
+              <a href="/otdelka-i-uteplenie-balkonov-i-lodzhij-v-voronezhe">Подробнее</a>
             </div>
           </div>
           <div class="col-lg-6 balkon-warm-img">

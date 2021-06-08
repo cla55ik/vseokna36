@@ -1598,9 +1598,139 @@ input.phone-consult.w-100, input.name-consult.w-100 {
 
 
 
+/*Профили окон*/
+
+.main-profile {
+  background-image: url(/src/img/bg-profile.jpg);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+
+}
+
+.main-profile-layout {
+
+  background: linear-gradient(90deg, rgba(255,255,255,1) 45%, rgba(255,255,255,0) 75%);
+}
+
+.main-profile-content{
+  padding-top:90px;
+  padding-bottom:150px;
+}
 
 
 
+.main-profile-content .first{
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 50px;
+}
+
+.main-profile-content .pink{
+  font-size: 150px;
+  font-weight: 700;
+  line-height: 150px;
+}
+
+.main-profile-content .second{
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 42px;
+}
+
+.profile-link p{
+  color: var(--green);
+}
+
+.green-link{
+  border: 1px solid var(--green);
+  border-radius: 0;
+
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+
+}
+
+.green-link div{
+  padding: 7px 0px;
+  color: var(--green) !important;
+}
+
+.rehau-ul li{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+
+}
+
+
+.rehau-ul li::marker{
+  color: var(--pink);
+}
+
+
+/*Шаблон Профили*/
+
+.prof-template-price a{
+  background-color: var(--pink);
+  border-radius: 50px;
+  padding: 15px 30px;
+  color:white;
+  transition: .5s;
+}
+
+.prof-template-price a:hover{
+  background-color: var(--green);
+  transition: .5s;
+}
+
+.prof-template-price .pink{
+  font-size: 40px;
+  font-weight: 600;
+}
+
+
+.prof-template-adv-card h3{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2em;
+
+  margin-top: 15px;
+}
+
+.prof-template-adv-card{
+  width: 25%;
+  padding-right: 5%;
+}
+
+.prof-template-main-img img {
+  width: 80%;
+}
+
+.prof-template-main-img{
+  padding-right: 35px;
+}
+
+
+.prof-template-description h2{
+  font-size: 28px;
+  font-weight: 500;
+}
+
+
+.prof-template-spec .spec-item {
+  margin-right: 5%;
+}
+
+.prof-template-spec .spec-text span{
+  font-size: 28px;
+}
+
+.prof-template-spec h2, .prof-template-tech h2, .prof-template-title-3 h2{
+  font-size: 36px;
+  font-weight: 600;
+}
 
 
 
@@ -3403,6 +3533,36 @@ span.second.title-32{
 }
 
 
+
+/*Профили*/
+
+.main-profile-content{
+  padding-top:50px;
+  padding-bottom:70px;
+}
+
+.cta-block{
+  margin-top: 40px;
+}
+
+
+.main-profile-content .first{
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 46px;
+}
+
+.main-profile-content .pink{
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.main-profile-content .second{
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
 
 
 }
