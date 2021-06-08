@@ -41,11 +41,11 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
                     <h3><?=$cur_prof['adv_3_text']; ?></h3>
                 </div>
             </div>
-            <div class="d-flex justify-content-between prof-template-price mt-70 mb-50">
-                <div class="col-6 pink d-flex align-items-center">
+            <div class="d-flex flex-wrap justify-content-between prof-template-price mt-70 mb-50">
+                <div class="col-12 col-md-6 pink d-flex align-items-center">
                     от <?=$cur_prof['price']; ?> ₽
                 </div>
-                <div class="col-6 text-end d-flex align-items-center justify-content-start">
+                <div class="col-12 col-md-6 text-end d-flex align-items-center justify-content-start">
                     <a href="#calc">Рассчитать стоимость</a>
                 </div>
             </div>

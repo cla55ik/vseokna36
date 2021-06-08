@@ -142,7 +142,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
         <div class="container pt-90 pb-70 ">
           <h2 class=" title-32 text-center">С НАМИ ОСТЕКЛИТЬ БАЛКОН ПРОСТО</h2>
         </div>
-        <div class="container d-flex flex-wrap justify-content-between pb-100">
+        <div class="container d-flex flex-wrap justify-content-around pb-100">
           <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/steps-easy-buy.php"); ?>
         </div>
         <div class="container pb-100">

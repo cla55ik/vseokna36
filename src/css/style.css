@@ -3565,4 +3565,36 @@ span.second.title-32{
 }
 
 
+
+/*Профили Шаблон*/
+
+.prof-template-adv-card{
+  width: 33%;
+
+}
+
+.prof-template-adv-card h3{
+  font-size: 14px;
+}
+
+.prof-template-price .pink{
+  margin-bottom: 10px;
+}
+
+.prof-template-price div{
+  justify-content: center !important;
+}
+
+
+.prof-template-main-img, .prof-template-description {
+  text-align: center;
+}
+
+.prof-template-description p{
+  text-align: left;
+}
+
+
+
+
 }
