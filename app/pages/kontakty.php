@@ -12,7 +12,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
   <h1 class="title-32">Офис продаж окон REHAU</h1>
 </div>
 <div class="container mt-30 mb-90 d-flex flex-wrap">
-  <div class="col-12 col-lg-7">
+  <div class="col-12 col-lg-7 d-none d-lg-block">
     <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Abe1aeb8e101820d5284c5a2cd7bb9f7e957911064184e4f9d06614904691df2a&amp;width=600&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
   </div>
   <div class="col-12 col-lg-5 contact-list">
@@ -78,7 +78,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
 <div class="container mt-70 mb-70">
   <h2 class="text-32">Реквизиты компании</h2>
 </div>
-<div class="container mb-100 d-flex align-items-center">
+<div class="container mb-100 d-flex flex-wrap align-items-center">
   <div class="col-12 col-lg-6">
     <img class="img-fluid" src="/src/img/sertificat.jpg" alt="">
   </div>
