@@ -1733,6 +1733,37 @@ input.phone-consult.w-100, input.name-consult.w-100 {
 }
 
 
+/*Контакты страница*/
+
+.contact-item{
+  margin-bottom: 20px;
+  font-size: 18px;
+
+}
+
+.contact-item img{
+  width: 45px;
+}
+
+.contact-item .contact-title{
+  font-weight: 600;
+}
+
+.requisites-item p{
+  margin:0;
+}
+
+.requisites-item{
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 1.4em;
+}
+
+
+
+
+
+
 
 
 

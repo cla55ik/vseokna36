@@ -66,7 +66,7 @@ $url = $url[0];
       <div class="d-none col-lg-3 d-md-flex flex-wrap align-items-center gray">
         <div class="d-flex head-grafik align-items-center pt-1 pb-1">
           <img class="img-fluid" src="/src/img/clock.svg" alt="График работы салона окон Rehau">
-          <span>Пн-Пт 09:00-18:00, Сб 10:00-15:00</span>
+          <span><?=$contacts['time'] ; ?></span>
         </div>
         <div class="d-flex head-grafik align-items-center pt-1 pb-1">
           <img class="img-fluid" src="/src/img/email.svg" alt="Написать письмо на электронную почту">

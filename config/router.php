@@ -23,6 +23,8 @@ elseif($uri === '/ustanovka-plastikovyh-okon')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/montazh.php");
 elseif($uri === '/akcii-i-skidki-na-plastikovye-okna')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/akcii.php");
+elseif($uri === '/kontakty')
+    require($_SERVER['DOCUMENT_ROOT']. "/app/pages/kontakty.php");
 elseif($uri === '/czeny-na-okna-v-voronezhe')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/ceni-okna.php");
 elseif($uri === '/okonnye-profili-rehau')
