@@ -41,6 +41,8 @@ elseif($uri === '/okonnye-profili-rehau/rehau-geneo')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/template-profile.php");
 elseif($uri === '/okonnye-profili-rehau/rehau-intellio')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/template-profile.php");
+elseif($uri === '/privacy-policy')
+    require($_SERVER['DOCUMENT_ROOT']. "/app/pages/privacy-policy.php");
 else
     require($_SERVER['DOCUMENT_ROOT']. "/app/templates/404.php");
 

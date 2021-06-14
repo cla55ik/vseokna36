@@ -3,7 +3,7 @@
 
 $page_title = 'Контакты Салона пластиковых окон Rehau';
 $page_description = 'Контактный телефон, адрес, время работы и схема проезда к офису компании Салон окон REHAU в Воронеже. Официальный партнер REHAU!';
-$img_og = 'https://dev.vseokna36.ru/src/img/contact-og.jpg';
+$img_og = 'https://dev.vseokna36.ru/src/img/contact-og.svg';
 include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
  ?>
 

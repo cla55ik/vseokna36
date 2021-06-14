@@ -1762,7 +1762,11 @@ input.phone-consult.w-100, input.name-consult.w-100 {
 
 
 
+/*Политика конфиденциальности*/
 
+.privacy li {
+  margin-top: 40px;
+}
 
 
 

@@ -71,9 +71,9 @@
               <div class="col-lg-6 white">
                 © 2021 ИП Варванцев В.В. Все права защищены.
               </div>
-              <div class="col-lg-6 d-flex justify-content-between">
-                <a class="white" href="#">Политика конфиденциальности</a>
-                <a class="white" href="#">Способы оплаты</a>
+              <div class="col-lg-6 d-flex justify-content-end">
+                <a class="white" href="/privacy-policy">Политика конфиденциальности</a>
+                <a class="white d-none" href="#">Способы оплаты</a>
               </div>
               <p class="white pt-30">Оставляя на сайте свои контактные данные, Вы даете согласие на обработку своих персональных данных в соответствии с политикой конфиденциальности. Сайт не является публичной офертой и носит информационный характер.</p>
             </div>
