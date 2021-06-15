@@ -395,6 +395,24 @@ h2.title-32-сс, h3.title-32-сс, .title-32-сс{
 /*Header*/
 
 
+header{
+    position: relative;
+    z-index: 2;
+}
+
+.header-sticky{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  padding: 10px 0px !important;
+  background-color: white;
+  box-shadow: 0px 0px 4px 0px rgb(0 0 0 / 50%);
+}
+
+.href-modal span:hover{
+  cursor: pointer;
+}
+
 
 
 .head-grafik img{

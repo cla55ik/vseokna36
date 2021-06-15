@@ -44,6 +44,42 @@ $url = $url[0];
   </head>
   <body>
 <?php include_once($_SERVER['DOCUMENT_ROOT']. "/config/options.php"); ?>
+<div class="container-fluid p-0 d-none d-lg-block header-sticky">
+  <div class="container">
+    <div class="row">
+      <div class="col-2 head-logo d-flex align-items-center gray">
+        <a class="d-flex align-items-center" href="/">
+          <img src="/src/img/logo-color.svg" alt="Логотип салона окон Rehau">
+          <span>САЛОН <br />ЭНЕРГОСБЕРЕГАЮЩИХ<br /> ТЕХНОЛОГИЙ</span>
+        </a>
+      </div>
+      <div class="col-3 d-flex justify-content-between align-items-center">
+        <div class="">
+          Окна
+        </div>
+        <div class="">
+          Окна
+        </div>
+        <div class="">
+          Окна
+        </div>
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        <div class="col-6 text-center">
+          <span onclick="modalVisible()">Бесплатный замер</span>
+        </div>
+        <div class="col-6 text-center">
+          <a href="/kontakty">Контакты</a>
+        </div>
+      </div>
+      <div class="col-3 d-flex justify-content-end align-items-center">
+        <a class="head-phone pink w-100 text-end" href="tel:<?= $contacts['tel_link'];?>"><?= $contacts['tel'];?></a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
 <header class="">
   <div class="container-fluid bg-light p-1">
     <div class="container d-flex flex-wrap pt-2 pb-2">
