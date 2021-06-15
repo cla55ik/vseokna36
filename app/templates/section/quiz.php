@@ -63,55 +63,28 @@
           <div class="quiz-title pb-30">
             <h3>{{ quiz.steps[stepIndex].text }}</h3>
           </div>
-          <div class="pb-30 d-flex justify-content-between text-center ">
-            <div class="">
-              <label for="matone">
-                <div class="quiz-img">
-                  <input type="radio" id="matone" value="Кирпич" v-model="matType">
-                    <img src="/src/img/q-1-1.svg" alt="" loading="lazy">
-                  </input>
-                </div>
-                <div class="quiz-radio-title">
-                  Кирпич
-                </div>
-              </label>
+          <div class="pb-30 text-left material-step">
+            <div class="calc-material">
+              <input type="radio" id="matone" value="Кирпич" v-model="matType">
+              </input>
+              <label class="title-18" for="matone">Кирпич</label>
             </div>
-            <div class="">
-              <label for="mattwo">
-                <div class="quiz-img">
-                  <input type="radio" id="mattwo" value="Монолит" v-model="matType">
-                    <img src="/src/img/q-1-1.svg" alt="" loading="lazy">
-                  </input>
-                </div>
-                <div class="quiz-radio-title">
-                  Монолит
-                </div>
-              </label>
+            <div class="calc-material">
+              <input type="radio" id="mattwo" value="Монолит" v-model="matType">
+              </input>
+              <label class="title-18" for="mattwo">Монолит</label>
             </div>
-            <div class="">
-              <label for="matthree">
-                <div class="quiz-img">
-                  <input type="radio" id="matthree" value="Панель" v-model="matType">
-                    <img src="/src/img/q-1-1.svg" alt="" loading="lazy">
-                  </input>
-                </div>
-                <div class="quiz-radio-title">
-                  Панель
-                </div>
-              </label>
+            <div class="calc-material">
+              <input type="radio" id="matthree" value="Панель" v-model="matType">
+              </input>
+              <label class="title-18" for="matthree">Панель</label>
             </div>
-            <div class="">
-              <label for="matfour">
-                <div class="quiz-img">
-                  <input type="radio" id="matfour" value="Дерево" v-model="matType">
-                    <img src="/src/img/q-1-1.svg" alt="" loading="lazy">
-                  </input>
-                </div>
-                <div class="quiz-radio-title">
-                  Дерево
-                </div>
-              </label>
+            <div class="calc-material">
+              <input type="radio" id="matfour" value="Дерево" v-model="matType">
+              </input>
+              <label class="title-18" for="matfour">Дерево</label>
             </div>
+
           </div>
           <div class="quiz-button">
             <button class="prev" v-on:click="prev">Назад</button>
@@ -123,12 +96,12 @@
           <div class="quiz-title pb-30">
             <h3>{{ quiz.steps[stepIndex].text }}</h3>
           </div>
-          <div class="pb-30 d-flex flex-wrap justify-content-evently text-center ">
-            <div class="">
+          <div class="pb-30 d-flex flex-wrap text-center win-step">
+            <div class="m-2">
               <label for="winone">
                 <div class="quiz-img">
                   <input type="radio" id="winone" value="Одностворчатое" v-model="winType">
-                    <img src="/src/img/q-1-1.svg" alt="" loading="lazy">
+                    <img src="/src/img/win1.png" alt="" loading="lazy">
                   </input>
                 </div>
                 <div class="quiz-radio-title">
@@ -136,11 +109,11 @@
                 </div>
               </label>
             </div>
-            <div class="">
+            <div class="m-2">
               <label for="wintwo">
                 <div class="quiz-img">
                   <input type="radio" id="wintwo" value="Двустворчатое" v-model="winType">
-                    <img src="/src/img/q-1-1.svg" alt="" loading="lazy">
+                    <img src="/src/img/win2.png" alt="" loading="lazy">
                   </input>
                 </div>
                 <div class="quiz-radio-title">
@@ -148,11 +121,11 @@
                 </div>
               </label>
             </div>
-            <div class="">
+            <div class="m-2">
               <label for="winthree">
                 <div class="quiz-img">
                   <input type="radio" id="winthree" value="Трехстворчатое" v-model="winType">
-                    <img src="/src/img/q-1-1.svg" alt="" loading="lazy">
+                    <img src="/src/img/win3.png" alt="" loading="lazy">
                   </input>
                 </div>
                 <div class="quiz-radio-title">
@@ -160,11 +133,11 @@
                 </div>
               </label>
             </div>
-            <div class="">
+            <div class="m-2">
               <label for="balblock">
                 <div class="quiz-img">
                   <input type="radio" id="balblock" value="Балконный блок" v-model="winType">
-                    <img src="/src/img/q-1-1.svg" alt="" loading="lazy">
+                    <img src="/src/img/bb.png" alt="" loading="lazy">
                   </input>
                 </div>
                 <div class="quiz-radio-title">
@@ -172,7 +145,7 @@
                 </div>
               </label>
             </div>
-            <div class="">
+            <div class="m-2 d-none">
               <label for="balkon">
                 <div class="quiz-img">
                   <input type="radio" id="balkon" value="Балкон" v-model="winType">
@@ -246,15 +219,15 @@
             <label class="w-100" for="win-width">Ширина, мм</label>
             <input type="range" min="400" max="8000" step="50" value="1400" id="win-width"  v-model="winWidth">
             </input>
-            <span v-show="winWidth != ''">{{ winWidth }}</span>
-            <span v-show="winWidth == null">1400</span>
+            <span v-show="winWidth != ''">{{ winWidth }} мм</span>
+            <span v-show="winWidth == null">1400 мм</span>
           </div>
           <div class="calc-range">
             <label class="w-100" for="win-width">Высота, мм</label>
             <input type="range" min="400" max="4000" step="50" value="1500" id="win-height"  v-model="winHeight">
             </input>
-            <span v-show="winHeight != ''">{{ winHeight }}</span>
-            <span v-show="winHeight == null">1500</span>
+            <span v-show="winHeight != ''">{{ winHeight }} мм</span>
+            <span v-show="winHeight == null">1500 мм</span>
           </div>
           <div class="quiz-button">
             <button class="prev" v-on:click="prev">Назад</button>

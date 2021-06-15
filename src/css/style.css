@@ -724,6 +724,110 @@ div.card-item-round{
 
 /*Калькулятор*/
 
+
+/*RANGE*/
+input[type=range] {
+  width: 30%;
+  margin: 8.3px 0;
+  background-color: transparent;
+  -webkit-appearance: none;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  background: #9e9e9e;
+  border: 0;
+  border-radius: 0px;
+  width: 30%;
+  height: 8.4px;
+  cursor: pointer;
+}
+input[type=range]::-webkit-slider-thumb {
+  margin-top: -8.3px;
+  width: 20px;
+  height: 25px;
+  background: #578754;
+  border: 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #a3a3a3;
+}
+input[type=range]::-moz-range-track {
+  background: #9e9e9e;
+  border: 0;
+  border-radius: 1.3px;
+  width: 30%;
+  height: 8.4px;
+  cursor: pointer;
+}
+input[type=range]::-moz-range-thumb {
+  width: 20px;
+  height: 25px;
+  background: #578754;
+  border: 0;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  background: transparent;
+  border-color: transparent;
+  border-width: 9.3px 0;
+  color: transparent;
+  width: 30%;
+  height: 8.4px;
+  cursor: pointer;
+}
+input[type=range]::-ms-fill-lower {
+  background: #999999;
+  border: 0;
+  border-radius: 2.6px;
+}
+input[type=range]::-ms-fill-upper {
+  background: #9e9e9e;
+  border: 0;
+  border-radius: 2.6px;
+}
+input[type=range]::-ms-thumb {
+  width: 20px;
+  height: 25px;
+  background: #578754;
+  border: 0;
+  cursor: pointer;
+  margin-top: 0px;
+  /*Needed to keep the Edge thumb centred*/
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #9e9e9e;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #a3a3a3;
+}
+
+
+/*end RANGE*/
+
+.calc-range span{
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+.win-step{
+  justify-content: space-evenly;
+}
+
+
+
+.material-step{
+  margin-right: 20px;
+}
+
+div.calc-material{
+  margin-bottom: 7px;
+}
+
 .calc-profile {
     margin: 15px 0px;
 }
@@ -1780,6 +1884,17 @@ input.phone-consult.w-100, input.name-consult.w-100 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /*Мобильная версия*/
 
 @media all and (max-width: 470px){
@@ -2558,6 +2673,48 @@ span.second.title-32{
 
 
   /*Калькулятор*/
+
+
+
+  /*RANGE*/
+  input[type=range] {
+    width: 50%;
+
+  }
+  input[type=range]:focus {
+    outline: none;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+
+    width: 35%;
+
+  }
+
+
+  input[type=range]::-moz-range-track {
+
+    width: 50%;
+
+  }
+
+  input[type=range]::-ms-track {
+
+    width: 50%;
+
+
+  }
+
+
+
+
+
+  /*RANGE*/
+
+
+
+
+
+
 
   .calc-profile {
     margin: 15px 0px;
