@@ -19,7 +19,7 @@
           </div>
         </div>
         <div class="private-link text-12 mt-2" id="private_zamer">
-          <span class="white">Нажимая кнопку, вы даете согласие на обработку </span><a class="white" href="#">персональных данных</a>
+          <span class="white">Нажимая кнопку, вы даете согласие на обработку </span><a class="white" href="/privacy-policy">персональных данных</a>
         </div>
       </form>
     </div>

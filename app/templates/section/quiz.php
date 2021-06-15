@@ -247,12 +247,14 @@
             <input type="range" min="400" max="8000" step="50" value="1400" id="win-width"  v-model="winWidth">
             </input>
             <span v-show="winWidth != ''">{{ winWidth }}</span>
+            <span v-show="winWidth == null">1400</span>
           </div>
           <div class="calc-range">
             <label class="w-100" for="win-width">Высота, мм</label>
-            <input type="range" min="400" max="4000" step="50" value="1400" id="win-height"  v-model="winHeight">
+            <input type="range" min="400" max="4000" step="50" value="1500" id="win-height"  v-model="winHeight">
             </input>
             <span v-show="winHeight != ''">{{ winHeight }}</span>
+            <span v-show="winHeight == null">1500</span>
           </div>
           <div class="quiz-button">
             <button class="prev" v-on:click="prev">Назад</button>

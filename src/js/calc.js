@@ -69,8 +69,8 @@ var quiz = {
       allDone: 0,
       floorType: null,
       matType: null,
-      winWidth: null,
-      winHeight:null,
+      winWidth: 1400,
+      winHeight:1500,
       winType:null,
       profileName:null,
       phoneForm:null,
@@ -131,7 +131,7 @@ var quiz = {
 
         }).then(response => {
           this.sendDone = response.data;
-          
+
 
           return this.sendDone;
 

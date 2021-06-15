@@ -18,7 +18,7 @@
       </div>
 
       <div class="private-link text-12 mt-2 text-center" id="private_consult">
-        <span class="white ">Нажимая кнопку, вы даете согласие на обработку </span><a class="white" href="#">персональных данных</a>
+        <span class="white ">Нажимая кнопку, вы даете согласие на обработку </span><a class="white" href="/privacy-policy">персональных данных</a>
       </div>
     </form>
   </div>

@@ -13,6 +13,6 @@
     </div>
   </form>
   <div class="private-link text-12 mt-2" id="private_30">
-    <span>Нажимая кнопку, вы даете согласие на обработку </span><a href="#">персональных данных</a>
+    <span>Нажимая кнопку, вы даете согласие на обработку </span><a href="/privacy-policy">персональных данных</a>
   </div>
 </div>

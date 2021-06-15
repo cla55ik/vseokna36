@@ -19,7 +19,7 @@
       </div>
     </form>
     <div class="private-link text-10 mt-2 white" id="private_green">
-      <span class="white">Нажимая кнопку, вы даете согласие на обработку </span><a href="#">персональных данных</a>
+      <span class="white">Нажимая кнопку, вы даете согласие на обработку </span><a href="/privacy-policy">персональных данных</a>
     </div>
   </div>
 </div>

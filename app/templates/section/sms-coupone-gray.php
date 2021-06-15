@@ -21,7 +21,7 @@
       </form>
     </div>
     <div class="private-link text-12 mt-2" id="private_sms">
-      <span>Нажимая кнопку, вы даете согласие на обработку </span><a href="#">персональных данных</a>
+      <span>Нажимая кнопку, вы даете согласие на обработку </span><a href="/privacy-policy">персональных данных</a>
     </div>
   </div>
   <div class="d-none d-md-flex col-lg-5  align-items-end sms-img-wrapper">
