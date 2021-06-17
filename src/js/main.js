@@ -3,9 +3,13 @@
 
 window.onload=function() {
 
+var visi = 0;
 
+if(document.querySelector('.modal-address')){
+  var visi = 0;
+  console.log(visi);
 
-
+}
 
 
 /*Слайдер Работы*/
@@ -379,5 +383,15 @@ function senderForm(name){
     console.log('next= '+next);
     sliderSertTrack.style.left = next;
     //offset = offset * 2;
+
+  }
+
+
+
+
+  function modalAddress(){
+    let addressModalWrap = document.querySelector('.modal-address');
+
+      addressModalWrap.classList.toggle("modal-hide")
 
   }

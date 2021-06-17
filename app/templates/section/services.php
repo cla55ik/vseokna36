@@ -21,7 +21,7 @@
   </div>
   <div class="services-card-house services-card d-flex justify-content-center align-items-end align-content-end">
     <div class="d-flex services-white">
-      <a href="/">
+      <a href="/okna-dlya-kottedzhej-i-zagorodnyh-domov-v-voronezhe">
         <span class="d-flex">
           <img src="/src/img/house-pink.svg" alt="Окна для коттеджей">
           <span class="text-uppercase">Окна<br />в коттедж</span>
@@ -31,7 +31,7 @@
   </div>
   <div class="services-card-child services-card d-flex justify-content-center align-items-end align-content-end">
     <div class="d-flex services-white">
-      <a href="/">
+      <a href="/detskiye-zamki-na-okna">
         <span class="d-flex">
           <img src="/src/img/child-pink.svg" alt="Детские замки на окна">
           <span class="text-uppercase">Детская<br />безопасность</span>

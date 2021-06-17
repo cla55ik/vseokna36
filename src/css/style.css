@@ -409,8 +409,36 @@ header{
   box-shadow: 0px 0px 4px 0px rgb(0 0 0 / 50%);
 }
 
+.header-sticky .salon-title{
+  font-size: 9px;
+  line-height: 1.3em;
+}
+
 .href-modal span:hover{
   cursor: pointer;
+  color: var(--pink);
+}
+
+.href-contacts a:hover{
+  cursor: pointer;
+  color: var(--pink);
+}
+
+
+.menu-sticky img {
+  margin-right: 10px;
+  height: 25px;
+}
+
+.menu-sticky span{
+  font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 14px;
+}
+
+.menu-sticky span:hover{
+  color: var(--pink);
 }
 
 
@@ -1629,7 +1657,7 @@ input.phone-consult.w-100, input.name-consult.w-100 {
 
 .deti-list{
   position: sticky;
-  top:20px;
+  top:110px;
 }
 
 .deti-title h3{
@@ -3813,6 +3841,20 @@ span.second.title-32{
   text-align: left;
 }
 
+
+
+
+/*Адрес Попап Modal*/
+
+.modal-address{
+  background: white;
+  box-shadow: 0px 0px 4px 0px rgb(0 0 0 / 50%);
+
+}
+
+.address-title{
+  font-weight: 500;
+}
 
 
 

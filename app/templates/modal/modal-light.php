@@ -14,7 +14,7 @@
           </div>
           <div class="text-16 font-weight-bold text-center" id="novalid_modal">
           </div>
-          <form id="form_cta_modal" class="horizontal-form" onsubmit="senderForm('modal')">
+          <form id="form_cta_modal" class="horizontal-form" onsubmit="senderForm('modal');ym(80932084,'reachGoal','callme')">
             <div class="pb-2 pt-5">
               <input class="w-100 phone-modal" type="text" name="phone" value="" placeholder="Телефон" required>
             </div>

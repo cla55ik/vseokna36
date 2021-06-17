@@ -10,7 +10,7 @@
     </div>
     <div class="text-16 font-weight-bold white" id="novalid_green">
     </div>
-    <form id="form_cta_green" class="form-inline d-flex flex-wrap mt-4" onsubmit="senderForm('green')">
+    <form id="form_cta_green" class="form-inline d-flex flex-wrap mt-4" onsubmit="senderForm('green');ym(80932084,'reachGoal','callme')">
       <div class="col-lg-7">
         <input class="phone phone-green" type="text" name="phone" value="" placeholder="+7 --- --- -- --" required>
       </div>

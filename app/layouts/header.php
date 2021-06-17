@@ -50,25 +50,28 @@ $url = $url[0];
       <div class="col-2 head-logo d-flex align-items-center gray">
         <a class="d-flex align-items-center" href="/">
           <img src="/src/img/logo-color.svg" alt="Логотип салона окон Rehau">
-          <span>САЛОН <br />ЭНЕРГОСБЕРЕГАЮЩИХ<br /> ТЕХНОЛОГИЙ</span>
+          <span class="salon-title">САЛОН <br />ЭНЕРГОСБЕРЕГАЮЩИХ<br /> ТЕХНОЛОГИЙ</span>
         </a>
       </div>
-      <div class="col-3 d-flex justify-content-between align-items-center">
-        <div class="">
-          Окна
-        </div>
-        <div class="">
-          Окна
-        </div>
-        <div class="">
-          Окна
-        </div>
+      <div class="col-4 d-flex justify-content-around align-items-center menu-sticky">
+        <a href="/" class="d-flex align-items-center">
+          <img src="/src/img/window-pink.svg" alt="">
+          <span>окна<br />rehau</span>
+        </a>
+        <a href="/osteklenie-balkonov-i-lodzhij-v-voronezhe" class="d-flex align-items-center">
+          <img src="/src/img/balkon-pink.svg" alt="">
+          <span>Балконы<br />лоджии</span>
+        </a>
+        <a href="/okna-dlya-kottedzhej-i-zagorodnyh-domov-v-voronezhe" class="d-flex align-items-center">
+          <img src="/src/img/house-pink.svg" alt="">
+          <span>Окна<br />в дом</span>
+        </a>
       </div>
-      <div class="col-4 d-flex justify-content-end align-items-center">
-        <div class="col-6 text-center">
+      <div class="col-3 d-flex justify-content-end align-items-center">
+        <div class="col-8 text-center href-modal">
           <span onclick="modalVisible()">Бесплатный замер</span>
         </div>
-        <div class="col-6 text-center">
+        <div class="col-4 text-center href-contacts">
           <a href="/kontakty">Контакты</a>
         </div>
       </div>
@@ -92,7 +95,7 @@ $url = $url[0];
       <!-- Mobile -->
       <div class="col-7 d-flex d-md-none justify-content-end mobile-right-menu">
         <div class="">
-          <a href="#"> <img src="/src/img/address.svg" alt="адрес салона окон"> </a>
+          <span onclick="modalAddress()"> <img src="/src/img/address.svg" alt="адрес салона окон"> </span>
         </div>
         <div class="">
           <a href="tel:<?=$contacts['tel_link'] ;?>"> <img src="/src/img/phone.svg" alt="телефон салона окон"> </a>
@@ -123,6 +126,19 @@ $url = $url[0];
       </div>
     </div>
   </div>
+  <!--modal address-->
+  <div class="modal-address modal-hide p-3 text-center">
+      <span class="address-title">
+        Офис:
+      </span>
+      <span class="text-end">
+        <a href="https://yandex.ru/maps/-/CCUa7FQBSC" target="_blank">
+          <?= $contacts['address'];  ?>
+        </a>
+
+      </span>
+  </div>
+  <!-- end modal address-->
   <div class="d-none d-md-block container-fluid bg-pink p-3">
     <nav class="container head-nav">
       <ul class="nav justify-content-between">
