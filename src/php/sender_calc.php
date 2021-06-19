@@ -26,12 +26,25 @@ if (isset($_POST["phone"]) )
         . "Профиль: " . $profileName . "\n"
         . "Ширина: " . $winWidth ."\n"
         . "Высота: " . $winHeight . "\n \n"
-        . "Телефон: ".$phone . "\n" 
+        . "Телефон: ".$phone . "\n"
 
 
-        ,"From: no-reply@test.com \r\n");
-    echo 'Заявка отправлена. Спасибо!';
-    	return;
+        ,"From: lead@vseokna36.ru \r\n");
+
+        mail("cla55ik@yandex.ru", "Заявка с сайта",
+
+             "Тип помещения: " . $floorType . "\n"
+            . "Материал стен: " . $matType . "\n"
+            . "Тип остекления: " . $winType . "\n"
+            . "Профиль: " . $profileName . "\n"
+            . "Ширина: " . $winWidth ."\n"
+            . "Высота: " . $winHeight . "\n \n"
+            . "Телефон: ".$phone . "\n"
+
+
+            ,"From: lead@vseokna36.ru \r\n");
+        echo 'Заявка отправлена. Спасибо!';
+
     }
 
 /*

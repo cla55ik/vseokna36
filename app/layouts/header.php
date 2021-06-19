@@ -22,7 +22,7 @@ $url = $url[0];
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     -->
     <!-- favicon -->
-    <link type="image/x-icon" rel="shortcut icon" href="/src/img/favicon.svg">
+    <link type="image/x-icon" rel="shortcut icon" href="/src/img/favicon.ico">
     <!-- Подключаем Custom CSS -->
     <link rel="stylesheet" type="text/css" href="/src/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/src/css/style.css">
