@@ -9,41 +9,41 @@ $uri = getRequestPath();
 
 if($uri === '/')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/main.php");
-elseif($uri === '/osteklenie-balkonov-i-lodzhij-v-voronezhe')
+elseif($uri === '/osteklenie-balkonov-i-lodzhij-v-voronezhe/'  or $uri === '/osteklenie-balkonov-i-lodzhij-v-voronezhe')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/balkon.php");
-elseif($uri === '/okna-dlya-kottedzhej-i-zagorodnyh-domov-v-voronezhe')
+elseif($uri === '/okna-dlya-kottedzhej-i-zagorodnyh-domov-v-voronezhe/' or $uri === '/okna-dlya-kottedzhej-i-zagorodnyh-domov-v-voronezhe')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/kottedzh.php");
-elseif($uri === '/proizvodstvo-okon-v-voronezhe')
+elseif($uri === '/proizvodstvo-okon-v-voronezhe/' or $uri === '/proizvodstvo-okon-v-voronezhe')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/zavod.php");
-elseif($uri === '/otdelka-i-uteplenie-balkonov-i-lodzhij-v-voronezhe')
+elseif($uri === '/otdelka-i-uteplenie-balkonov-i-lodzhij-v-voronezhe/' or $uri === '/otdelka-i-uteplenie-balkonov-i-lodzhij-v-voronezhe')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/uteplenie.php");
-elseif($uri === '/detskiye-zamki-na-okna')
+elseif($uri === '/detskiye-zamki-na-okna/' or $uri === '/detskiye-zamki-na-okna')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/deti.php");
-elseif($uri === '/ustanovka-plastikovyh-okon')
+elseif($uri === '/ustanovka-plastikovyh-okon/' or $uri === '/ustanovka-plastikovyh-okon')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/montazh.php");
-elseif($uri === '/akcii-i-skidki-na-plastikovye-okna')
+elseif($uri === '/akcii-i-skidki-na-plastikovye-okna/' or $uri === '/akcii-i-skidki-na-plastikovye-okna')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/akcii.php");
-elseif($uri === '/kontakty')
+elseif($uri === '/kontakty/' or $uri === '/kontakty')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/kontakty.php");
-elseif($uri === '/czeny-na-okna-v-voronezhe')
+elseif($uri === '/czeny-na-okna-v-voronezhe/' or $uri === '/czeny-na-okna-v-voronezhe')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/ceni-okna.php");
-elseif($uri === '/okonnye-profili-rehau')
+elseif($uri === '/okonnye-profili-rehau/' or $uri === '/okonnye-profili-rehau')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/profile.php");
-elseif($uri === '/okonnye-profili-rehau/rehau-blitz')
+elseif($uri === '/okonnye-profili-rehau/rehau-blitz/' or $uri === '/okonnye-profili-rehau/rehau-blitz')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/template-profile.php");
-elseif($uri === '/okonnye-profili-rehau/rehau-grazio')
+elseif($uri === '/okonnye-profili-rehau/rehau-grazio/' or $uri === '/okonnye-profili-rehau/rehau-grazio')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/template-profile.php");
-elseif($uri === '/okonnye-profili-rehau/rehau-brillant')
+elseif($uri === '/okonnye-profili-rehau/rehau-brillant/' or $uri === '/okonnye-profili-rehau/rehau-brillant')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/template-profile.php");
-elseif($uri === '/okonnye-profili-rehau/rehau-delight')
+elseif($uri === '/okonnye-profili-rehau/rehau-delight/' or $uri === '/okonnye-profili-rehau/rehau-delight')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/template-profile.php");
-elseif($uri === '/okonnye-profili-rehau/rehau-geneo')
+elseif($uri === '/okonnye-profili-rehau/rehau-geneo/' or $uri === '/okonnye-profili-rehau/rehau-geneo')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/template-profile.php");
-elseif($uri === '/okonnye-profili-rehau/rehau-intellio')
+elseif($uri === '/okonnye-profili-rehau/rehau-intellio/' or $uri === '/okonnye-profili-rehau/rehau-intellio')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/template-profile.php");
-elseif($uri === '/privacy-policy')
+elseif($uri === '/privacy-policy/' or $uri === '/privacy-policy')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/privacy-policy.php");
-elseif($uri === '/thank-you-page')
+elseif($uri === '/thank-you-page/' or $uri === '/thank-you-page')
     require($_SERVER['DOCUMENT_ROOT']. "/app/pages/thank-you-page.php");
 else
     require($_SERVER['DOCUMENT_ROOT']. "/app/templates/404.php");

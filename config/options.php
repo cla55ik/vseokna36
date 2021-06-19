@@ -1,11 +1,11 @@
 <?php
 
 $nav_items = ['Пластиковые окна' => '/',
-              'Балконы и лоджии' => '/osteklenie-balkonov-i-lodzhij-v-voronezhe',
-              'Окна в дом' => '/okna-dlya-kottedzhej-i-zagorodnyh-domov-v-voronezhe',
-              'Производство окон' => '/proizvodstvo-okon-v-voronezhe',
+              'Балконы и лоджии' => '/osteklenie-balkonov-i-lodzhij-v-voronezhe/',
+              'Окна в дом' => '/okna-dlya-kottedzhej-i-zagorodnyh-domov-v-voronezhe/',
+              'Производство окон' => '/proizvodstvo-okon-v-voronezhe/',
               'Акции' => '#akcii',
-              'Детская безопасность' => '/detskiye-zamki-na-okna'
+              'Детская безопасность' => '/detskiye-zamki-na-okna/'
             ];
 
 $contacts = ['tel' => '+7 (473) 205-22-35',
@@ -18,22 +18,22 @@ $contacts = ['tel' => '+7 (473) 205-22-35',
 
 
 $footer_first = ['Пластиковые окна' => '/',
-              'Балконы и лоджии' => '/osteklenie-balkonov-i-lodzhij-v-voronezhe',
-              'Утепление и отделка' => '/otdelka-i-uteplenie-balkonov-i-lodzhij-v-voronezhe',
-              'Окна в дом' => '/okna-dlya-kottedzhej-i-zagorodnyh-domov-v-voronezhe',
+              'Балконы и лоджии' => '/osteklenie-balkonov-i-lodzhij-v-voronezhe/',
+              'Утепление и отделка' => '/otdelka-i-uteplenie-balkonov-i-lodzhij-v-voronezhe/',
+              'Окна в дом' => '/okna-dlya-kottedzhej-i-zagorodnyh-domov-v-voronezhe/',
 
             ];
 
-$footer_second = [      'Профили Rehau' => '/okonnye-profili-rehau',
-                        'Производство окон' => '/proizvodstvo-okon-v-voronezhe',
-                        'Детская безопасность' => '/detskiye-zamki-na-okna',
+$footer_second = [      'Профили Rehau' => '/okonnye-profili-rehau/',
+                        'Производство окон' => '/proizvodstvo-okon-v-voronezhe/',
+                        'Детская безопасность' => '/detskiye-zamki-na-okna/',
 
 
             ];
 
-$footer_third =  [      'Цены на окна' => '/czeny-na-okna-v-voronezhe',
-                        'Акции и скидки' => '/akcii-i-skidki-na-plastikovye-okna',
-                        'Контакты' => '/kontakty',
-                        'Монтаж окон' => '/ustanovka-plastikovyh-okon',
+$footer_third =  [      'Цены на окна' => '/czeny-na-okna-v-voronezhe/',
+                        'Акции и скидки' => '/akcii-i-skidki-na-plastikovye-okna/',
+                        'Контакты' => '/kontakty/',
+                        'Монтаж окон' => '/ustanovka-plastikovyh-okon/',
 
             ];
