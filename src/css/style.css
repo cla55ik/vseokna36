@@ -1918,11 +1918,29 @@ input.phone-consult.w-100, input.name-consult.w-100 {
   margin-top: 40px;
 }
 
+/*Спасибо страница*/
 
+.thank-you-main{
+  min-height: 80vh;
+  background-image: url(/src/img/bg-thank.jpg);
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+}
 
+.thank-you-main .text-content{
+  padding:35px;
+  background-color: var(--green);
+  color:white;
+  border-radius: 50px;
+}
 
+/*Страница 404*/
 
-
+.error-404{
+  font-size: 100px;
+  font-weight: bold;
+}
 
 
 

@@ -1,7 +1,7 @@
 <div class="modal-background" id="modal-background">
   <div class="modal-wrapper">
     <div class="modal-head d-flex justify-content-end">
-      <span> <a href="" onclick="modalHide()">закрыть</a> </span>
+      <span> <a href="" onclick="modalHide()">&#10006;</a> </span>
     </div>
     <div class="modal-body">
       <div class="modal-title text-center">
