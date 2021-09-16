@@ -51,7 +51,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
 
 
           </div>
-          <button class="bg-green text-white btn-green mt-5" type="button" name="button" onclick="modalVisible()">Получить подарок</button>
+          <button class="bg-green text-white btn-green mt-5" type="button" name="button" data-toggle="modal" data-target="#modalCallback">Получить подарок</button>
         </div>
       </div>
     </div>
@@ -99,7 +99,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
             <img class=img-fluid src="/src/img/deti1-3.jpg" alt="Ручка с замком">
           </div>
           <div class="col-6 col-lg-3 p-3 d-flex justify-content-center align-items-center">
-            <button class="white " type="button" name="button-deti" onclick="modalVisible()">Заказать</button>
+            <button class="white " type="button" name="button-deti" data-toggle="modal" data-target="#modalCallback">Заказать</button>
           </div>
         </div>
       </div>
@@ -120,7 +120,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
             <img class=img-fluid src="/src/img/deti2-3.jpg" alt="Накладной замок на окна">
           </div>
           <div class="col-6 col-lg-3 p-3 d-flex justify-content-center align-items-center">
-            <button class="white " type="button" name="button-deti" onclick="modalVisible()">Заказать</button>
+            <button class="white " type="button" name="button-deti" data-toggle="modal" data-target="#modalCallback">Заказать</button>
           </div>
         </div>
       </div>
@@ -142,7 +142,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
             <img class=img-fluid src="/src/img/deti3-3.jpg" alt="Замок с тросиком на окна">
           </div>
           <div class="col-6 col-lg-3 p-3 d-flex justify-content-center align-items-center">
-            <button class="white " type="button" name="button-deti" onclick="modalVisible()">Заказать</button>
+            <button class="white " type="button" name="button-deti" data-toggle="modal" data-target="#modalCallback">Заказать</button>
           </div>
         </div>
       </div>
@@ -163,7 +163,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
             <img class=img-fluid src="/src/img/deti4-3.jpg" alt="Фиксатор на окна">
           </div>
           <div class="col-6 col-lg-3 p-3 d-flex justify-content-center align-items-center">
-            <button class="white " type="button" name="button-deti" onclick="modalVisible()">Заказать</button>
+            <button class="white " type="button" name="button-deti" data-toggle="modal" data-target="#modalCallback">Заказать</button>
           </div>
         </div>
       </div>
@@ -193,3 +193,9 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
 
 
 </main>
+
+<script>
+  var akciiArray = <?php echo json_encode($all_akcii); ?>;
+  var reviewsArray = <?php echo json_encode($all_reviews); ?>
+
+</script>

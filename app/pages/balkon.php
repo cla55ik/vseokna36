@@ -72,7 +72,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
 
           <div class="d-flex balkon-profiles-price justify-content-between align-items-center">
             <span class="pink">от 6700 ₽</span>
-            <a onclick="modalVisible()">Узнать цену</a>
+            <a data-toggle="modal" data-target="#modalCallback">Узнать цену</a>
           </div>
           <div class="balkon-profiles-text">
             <p>Для максимального использования полезной площади лоджии или балкона теплое остекление — идеальное решение. Оно предусматривает монтаж профильных систем REHAU из пластика с теплопакетом (одно- или двухкамерным).</p>
@@ -89,7 +89,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
 
           <div class="d-flex balkon-profiles-price justify-content-between align-items-center">
             <span class="pink">от 4200 ₽</span>
-            <a onclick="modalVisible()">Узнать цену</a>
+            <a data-toggle="modal" data-target="#modalCallback">Узнать цену</a>
           </div>
           <div class="balkon-profiles-text">
             <p>Наиболее экономичное остекление балкона — холодное алюминиевое. Раздвижные рамы из профиля PROVEDAL экономят бюджет и полезные квадратные метры.</p>
@@ -106,7 +106,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
 
           <div class="d-flex balkon-profiles-price justify-content-between align-items-center">
             <span class="pink">от 7300 ₽</span>
-            <a onclick="modalVisible()">Узнать цену</a>
+            <a data-toggle="modal" data-target="#modalCallback">Узнать цену</a>
           </div>
           <div class="balkon-profiles-text">
             <p>Благодаря такой конструкции лоджии и балконы получают панорамный вид, дополнительную естественную освещенность, визуальное расширение пространства. Данный вид остекления предполагает монтаж систем из стекла во всю длину парапета, от пола до потолка.</p>

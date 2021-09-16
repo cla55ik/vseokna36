@@ -61,7 +61,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
 
 
           </div>
-          <button class="bg-green text-white btn-green mt-5" type="button" name="button" onclick="modalVisible()">Получить подарок</button>
+          <button class="bg-green text-white btn-green mt-5" type="button" name="button" data-toggle="modal" data-target="#modalCallback">Получить подарок</button>
         </div>
       </div>
     </div>
@@ -200,7 +200,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
         <p class="white text-18">Инженер может приехать к вам для проведения замера и оформления заказа с 8 до 19-00 ч каждый день, включая выходные. Кроме того, вы приобретаете окна в комфортной для вас обстановке — у вас дома!</p>
         <h3 class="white title-18 pt-30">СКОЛЬКО ЭТО СТОИТ?</h3>
         <p class="white text-18">Нисколько! Услуга «мобильный офис» совершенно бесплатна в Воронеже и пригороде.</p>
-        <button class="btn-border mt-30" type="button" name="button" onclick="modalVisible()">Заказать услугу</button>
+        <button class="btn-border mt-30" type="button" name="button" data-toggle="modal" data-target="#modalCallback">Заказать услугу</button>
       </div>
     </div>
   </div>

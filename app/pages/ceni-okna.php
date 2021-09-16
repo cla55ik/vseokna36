@@ -97,3 +97,9 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
     </div>
 
 </main>
+
+<script>
+  
+  var reviewsArray = <?php echo json_encode($all_reviews); ?>
+
+</script>

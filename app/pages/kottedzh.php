@@ -137,7 +137,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
         <div class="container pt-90 pb-70 ">
           <h2 class=" title-32 text-center">С НАМИ ЗАКАЗАТЬ ОСТЕКЛЕНИЕ ДОМА ПРОСТО</h2>
         </div>
-        <div class="container d-flex flex-wrap justify-content-between pb-100">
+        <div class="container d-flex flex-wrap justify-content-evenly pb-100">
           <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/section/steps-easy-buy.php"); ?>
         </div>
         <div class="container pb-100">
@@ -214,7 +214,7 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
           <p class="white text-18">Инженер может приехать к вам для проведения замера и оформления заказа с 8 до 19-00 ч каждый день, включая выходные. Кроме того, вы приобретаете окна в комфортной для вас обстановке — у вас дома!</p>
           <h3 class="white title-18 pt-30">СКОЛЬКО ЭТО СТОИТ?</h3>
           <p class="white text-18">Нисколько! Услуга «мобильный офис» совершенно бесплатна в Воронеже и пригороде.</p>
-          <button class="btn-border mt-30" type="button" name="button" onclick="modalVisible()">Заказать услугу</button>
+          <button class="btn-border mt-30" type="button" name="button" data-toggle="modal" data-target="#modalCallback">Заказать услугу</button>
         </div>
       </div>
     </div>

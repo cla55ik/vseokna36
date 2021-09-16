@@ -1,9 +1,9 @@
 
 
 .ftpconfig
-
 db.php
-
+.vscode
+/img
 # phpstorm project files
 .idea
 

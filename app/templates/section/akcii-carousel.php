@@ -31,7 +31,7 @@
             </ul>
           </div>
           <div class=" p-5 akciya-button">
-              <button type="button" name="button" onclick="modalVisible()">Подробнее</button>
+              <button type="button" name="button" data-toggle="modal" data-target="#modalCallback">Подробнее</button>
           </div>
         </div>
 
@@ -78,7 +78,7 @@
             </ul>
           </div>
           <div class="akciya-button">
-              <button type="button" name="button" onclick="modalVisible()">Подробнее</button>
+              <button type="button" name="button" data-toggle="modal" data-target="#modalCallback">Подробнее</button>
           </div>
         </div>
 

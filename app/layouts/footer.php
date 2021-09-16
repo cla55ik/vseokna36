@@ -83,8 +83,8 @@
     </footer>
 
     <!-- MODAL -->
-    <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/modal/modal-light.php"); ?>
-
+    <?php //include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/modal/modal-light.php"); ?>
+    <?php include_once($_SERVER['DOCUMENT_ROOT']. "/app/templates/modal/modal-callback.php"); ?>
 
     <!-- Yandex.Metrika counter -->
       <script type="text/javascript" >

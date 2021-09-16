@@ -110,3 +110,9 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
 
 
 </main>
+
+<script>
+  var akciiArray = <?php echo json_encode($all_akcii); ?>;
+  var reviewsArray = <?php echo json_encode($all_reviews); ?>
+
+</script>
