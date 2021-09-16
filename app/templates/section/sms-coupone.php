@@ -13,7 +13,7 @@
       </div>
       <form id="form_cta_sms" class="horizontal-form" onsubmit="senderForm('sms');ym(80932084,'reachGoal','callme')">
         <div class="pb-4 pt-5">
-          <input class="w-100 phone-sms" type="text" name="phone" value="" placeholder="Телефон" required>
+          <input class="w-100 phone-sms mask-phone" type="text" name="phone" value="" placeholder="Телефон" required>
         </div>
         <div class="">
           <input class="bg-green btn-sqr white" type="submit" value="Получить скидку">

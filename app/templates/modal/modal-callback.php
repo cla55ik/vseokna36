@@ -21,7 +21,7 @@
           </div>
           <form id="form_cta_modal" class="horizontal-form" onsubmit="senderForm('modal');ym(80932084,'reachGoal','callme')">
             <div class="pb-2 pt-5">
-              <input class="w-100 phone-modal" type="text" name="phone" value="" placeholder="Телефон" required>
+              <input class="w-100 phone-modal mask-phone" type="text" name="phone" value="" placeholder="Телефон" required>
             </div>
             <div class="">
               <input class="bg-green btn-sqr white" type="submit" name="form_submit" value="Жду звонка">

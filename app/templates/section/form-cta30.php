@@ -6,7 +6,7 @@
   </div>
   <form id="form_cta_30" class="form-inline d-flex flex-wrap mt-4" onsubmit="senderForm('30');ym(80932084,'reachGoal','callme')">
     <div class="col-10 col-lg-6">
-      <input id="phone_30" class="phone phone-30" type="text" name="phone" value="" placeholder="+7 --- --- -- --" required>
+      <input id="phone_30" class="phone phone-30 mask-phone" type="text" name="phone" value="" placeholder="+7 --- --- -- --" required>
     </div>
     <div class="col-10 col-lg-6 ">
       <input class="btn-round bg-green " type="submit" name="form_submit" value="Получить скидку">

@@ -46,6 +46,20 @@ input.bg-green:hover {
     transition: 0.5s;
 }
 
+input:active {
+    outline: none;
+    transition: all ease 0.5s;
+    border: 1px solid var(--gray);
+    border-width: 1px 1px 1px;
+}
+
+input:focus {
+    outline: none;
+    transition: all ease 0.5s;
+    border: 1px solid var(--gray);
+    border-width: 1px 1px 1px;
+}
+
 .pr-50 {
     padding-right: 50px;
 }

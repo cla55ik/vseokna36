@@ -10,13 +10,13 @@ if (isset($_POST["phone"]) )
         echo 'Не заполнено поле Телефон';
         return; //проверяем наличие обязательных полей
     }
-    $phone = htmlspecialchars(trim($_POST['phone']));
-    $floorType = htmlspecialchars(trim($_POST['floorType']));
-	$matType = htmlspecialchars(trim($_POST['matType']));
-	$profileName = htmlspecialchars(trim($_POST['profileName']));
-	$winWidth = htmlspecialchars(trim($_POST['winWidth']));
-	$winHeight = htmlspecialchars(trim($_POST['winHeight']));
-	$winType = htmlspecialchars(trim($_POST['winType']));
+    $phone = strip_tags(trim($_POST['phone']));
+    $floorType = strip_tags(trim($_POST['floorType']));
+	$matType = strip_tags(trim($_POST['matType']));
+	$profileName = strip_tags(trim($_POST['profileName']));
+	$winWidth = strip_tags(trim($_POST['winWidth']));
+	$winHeight = strip_tags(trim($_POST['winHeight']));
+	$winType = strip_tags(trim($_POST['winType']));
 
     mail("ivan5420@yandex.ru", "Заявка с сайта",
 

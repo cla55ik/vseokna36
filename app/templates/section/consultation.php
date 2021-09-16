@@ -11,7 +11,7 @@
     </div>
     <form id="form_cta_consult" class="form-cta-dist hirizontal-form w-60 pt-5" onsubmit="senderForm('consult')">
       <div class="form-text">
-        <input class="phone-consult w-100" type="text" name="phone" value="" placeholder="Телефон" required>
+        <input class="phone-consult w-100 mask-phone" type="text" name="phone" value="" placeholder="Телефон" required>
       </div>
       <div class="form-submit mt-3 mb-3">
         <input class="bg-pink btn-sqr white text-uppercase w-100" type="submit" value="Отправить">

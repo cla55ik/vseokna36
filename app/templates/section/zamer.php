@@ -12,7 +12,7 @@
             <input class="phone" type="text" name="name" value="" placeholder="Имя">
           </div>
           <div class="col-12 col-lg-4">
-            <input class="phone phone-zamer" type="text" name="phone" value="" placeholder="Телефон">
+            <input class="phone phone-zamer mask-phone" type="text" name="phone" value="" placeholder="Телефон">
           </div>
           <div class="col-12 col-lg-2">
             <input class="bg-pink white btn-round " type="submit" value="Отправить">

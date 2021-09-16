@@ -13,12 +13,12 @@
               </a>
             </div>
             <div class="d-none d-lg-flex col-lg-5  justify-content-between align-items-start">
-              <button class="btn-footer" type="button" name="btn-footer-price" onclick="modalVisible()">Узнать стоимость</button>
-              <button class="btn-footer" type="button" name="btn-footer-price" onclick="modalVisible()">Бесплатный замер</button>
+              <button class="btn-footer" type="button" name="btn-footer-price"  data-toggle="modal" data-target="#modalCallback">Узнать стоимость</button>
+              <button class="btn-footer" type="button" name="btn-footer-price"  data-toggle="modal" data-target="#modalCallback">Бесплатный замер</button>
             </div>
             <div class="col-lg-4 text-lg-end pb-30">
               <a class="white title-36" href="tel:<?= $contacts['tel_link']; ?>"><?=$contacts['tel'] ; ?></a>
-              <a class="white text-20 text-end w-100" href="#" onclick="modalVisible()">Заказать звонок</a>
+              <a class="white text-20 text-end w-100" href="#"  data-toggle="modal" data-target="#modalCallback">Заказать звонок</a>
               <p class="white mt-4 d-block d-lg-none"><?=$contacts['address'] ;?></p>
               <a class="white d-block d-lg-none" href="mailto:<?=$contacts['mail'] ; ?>"><?= $contacts['mail'] ; ?></a>
             </div>
@@ -102,10 +102,11 @@
       <noscript><div><img src="https://mc.yandex.ru/watch/80932084" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
       <!-- /Yandex.Metrika counter -->
 
-
+    <script src="/src/js/maskedinput.js"></script>
     <script src="/src/js/main.js"></script>
     <script src="/src/js/calc.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script> -->
+    
   </body>
 </html>

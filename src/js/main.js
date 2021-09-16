@@ -1,12 +1,13 @@
 window.onload = function() {
 
-    var visi = 0;
+    // var visi = 0;
 
-    if (document.querySelector('.modal-address')) {
-        var visi = 0;
-        console.log(visi);
+    // if (document.querySelector('.modal-address')) {
+    //     var visi = 0;
+    //     // console.log(visi);
 
-    }
+    // }
+    $('.mask-phone').mask('+7 (999) 999-99-99');
 
 
     /*Слайдер Работы*/
@@ -29,7 +30,7 @@ window.onload = function() {
 
 
 
-    document.getElementById('modal-background').classList.add("modal-hide");
+    // document.getElementById('modal-background').classList.add("modal-hide");
 
 
 

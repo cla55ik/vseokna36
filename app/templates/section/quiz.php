@@ -248,7 +248,7 @@
             </div>
             <form id="form_cta_calc" class="form-inline d-flex flex-wrap mt-4" v-on:submit.prevent="send" v-show="sendDone != 'Заявка отправлена. Спасибо!'">
               <div class="col-lg-7">
-                <input v-model="phoneForm" class="phone phone-calc" type="text" name="phone" value="" placeholder="+7 --- --- -- --" required>
+                <input v-model="phoneForm" class="phone phone-calc mask-phone" type="text" name="phone" value="" placeholder="+7 --- --- -- --" required>
               </div>
               <div class="col-lg-5">
                 <input class="btn-round bg-pink w-100" type="submit" name="form_submit" value="Жду звонка">
