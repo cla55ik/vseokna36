@@ -19,26 +19,14 @@ $url = $url[0];
   <meta property="og:type" content="article">
   <meta property="og:url" content="<?= $url; ?>">
   <meta property="og:description" content="<?= $page_description; ?>">
-  <!-- Подключаем Bootstrap CSS
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    -->
   <!-- favicon -->
   <link type="image/x-icon" rel="shortcut icon" href="/src/img/favicon.ico">
   <!-- Подключаем Custom CSS -->
   <link rel="stylesheet" type="text/css" href="/src/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="/src/css/style.css">
+  
 
-  <!--Подключаем Шрифт
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    -->
 
-  <!--VUE js-->
-  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
-  <!--jquery-->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
 
@@ -161,5 +149,3 @@ $url = $url[0];
     </div>
 
   </header>
-
-
