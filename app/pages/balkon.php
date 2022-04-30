@@ -71,11 +71,14 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
           </div>
 
           <div class="d-flex balkon-profiles-price justify-content-between align-items-center">
-            <span class="pink">от 6700 ₽</span>
-            <a data-toggle="modal" data-target="#modalCallback">Узнать цену</a>
+            <!-- <span class="pink">от 6700 ₽</span> -->
+            <!-- <a data-toggle="modal" data-target="#modalCallback">Узнать цену</a> -->
           </div>
           <div class="balkon-profiles-text">
             <p>Для максимального использования полезной площади лоджии или балкона теплое остекление — идеальное решение. Оно предусматривает монтаж профильных систем REHAU из пластика с теплопакетом (одно- или двухкамерным).</p>
+          </div>
+          <div class="profile-price mt-4 mb-3 d-flex justify-content-center">
+            <a class="btn-round bg-pink shadow-custom" href="#" data-toggle="modal" data-target="#modalCallback">Узнать цену по акции</a>
           </div>
 
         </div>
@@ -88,11 +91,14 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
           </div>
 
           <div class="d-flex balkon-profiles-price justify-content-between align-items-center">
-            <span class="pink">от 4200 ₽</span>
-            <a data-toggle="modal" data-target="#modalCallback">Узнать цену</a>
+            <!-- <span class="pink">от 4200 ₽</span> -->
+            <!-- <a data-toggle="modal" data-target="#modalCallback">Узнать цену</a> -->
           </div>
           <div class="balkon-profiles-text">
             <p>Наиболее экономичное остекление балкона — холодное алюминиевое. Раздвижные рамы из профиля PROVEDAL экономят бюджет и полезные квадратные метры.</p>
+          </div>
+          <div class="profile-price mt-4 mb-3 d-flex justify-content-center">
+            <a class="btn-round bg-pink shadow-custom" href="#" data-toggle="modal" data-target="#modalCallback">Узнать цену по акции</a>
           </div>
 
         </div>
@@ -103,13 +109,16 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
           <div class="balkon-profiles-img">
             <img src="/src/img/balkon-prof-3.jpg" alt="Остекление балкона">
           </div>
-
+      
           <div class="d-flex balkon-profiles-price justify-content-between align-items-center">
-            <span class="pink">от 7300 ₽</span>
-            <a data-toggle="modal" data-target="#modalCallback">Узнать цену</a>
+            <!-- <span class="pink">от 7300 ₽</span> -->
+            <!-- <a data-toggle="modal" data-target="#modalCallback">Узнать цену</a> -->
           </div>
           <div class="balkon-profiles-text">
             <p>Благодаря такой конструкции лоджии и балконы получают панорамный вид, дополнительную естественную освещенность, визуальное расширение пространства. Данный вид остекления предполагает монтаж систем из стекла во всю длину парапета, от пола до потолка.</p>
+          </div>
+          <div class="profile-price mt-4 mb-3 d-flex justify-content-center">
+            <a class="btn-round bg-pink shadow-custom" href="#" data-toggle="modal" data-target="#modalCallback">Узнать цену по акции</a>
           </div>
 
         </div>
@@ -122,8 +131,8 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
               <p>Завершающим этапом остекления выступает отделка балкона под ключ. Услуга включает работы по утеплению и оформлению, выполняемые внутри и снаружи конструктивного элемента здания. Отделка лоджий производится грамотными специалистами  с использованием современных качественных материалов, быстро и по разумной цене, по заранее согласованному дизайн-проекту.
                 </p>
 
-            <div class="d-flex balkon-profiles-price justify-content-between align-items-center">
-              <span class="pink">от 5400 ₽</span>
+            <div class="d-flex balkon-profiles-price justify-content-between align-items-center text-uppercase">
+              <!-- <span class="pink">от 5400 ₽</span> -->
               <a href="/otdelka-i-uteplenie-balkonov-i-lodzhij-v-voronezhe">Подробнее</a>
             </div>
           </div>

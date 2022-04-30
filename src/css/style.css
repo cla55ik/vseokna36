@@ -377,6 +377,10 @@ h3.title-32-сс,
     color: #fff;
 }
 
+.shadow-custom {
+    box-shadow: 2px 2px 4px 0px rgb(0 0 0 / 50%) !important;
+}
+
 
 /*Header*/
 
@@ -1211,7 +1215,7 @@ button.close span {
 }
 
 .profile.green-line {
-    padding: 10px 0px;
+    padding: 2px 0px;
 }
 
 .profile.green-line p {
@@ -1223,13 +1227,13 @@ button.close span {
 }
 
 .spec-text span {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 600;
     color: #626262 !important;
 }
 
 .spec-img {
-    margin-right: 25px;
+    margin-right: 10px;
 }
 
 
@@ -2114,7 +2118,7 @@ input.name-consult.w-100 {
     }
     .btn-round {
         font-size: 12px;
-        padding: 8px 16px;
+        padding: 16px 24px;
         border: none;
         border-radius: 50px;
         font-weight: 600;

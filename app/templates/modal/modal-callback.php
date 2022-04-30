@@ -10,8 +10,9 @@
       </div>
       <div class="modal-body">
         <div class="modal-title text-center">
-          <h2 class="gray title-28">Заказать звонок!</h2>
-          <p>Оставьте контактный номер. Перезвоним в ближайшие минуты</p>
+          <h2 class="gray title-28 mb-3">Заказать звонок!</h2>
+          <p class="m-0 p-0 text-18">Оставьте контактный номер.</p> 
+          <p>Перезвоним в ближайшие минуты</p>
         </div>
         <div class="modal-form">
 

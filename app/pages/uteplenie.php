@@ -31,78 +31,81 @@ include_once($_SERVER['DOCUMENT_ROOT']. "/app/layouts/header.php");
       </div>
       <div class="row p-0">
          <div class="col-lg-6">
-            <h3 class="mb-20">Стоимость работ</h3>
+            <h3 class="mb-20">Какие работы мы выполняем</h3>
             <div class="d-flex table-price">
                <div class="col-8">
                   1. Козырек
                </div>
-               <div class="col-4">
+               <!-- <div class="col-4">
                   от 110 руб
-               </div>
+               </div> -->
             </div>
             <div class="d-flex table-price">
                <div class="col-8">
                   2. Отделка потолка
                </div>
-               <div class="col-4">
+               <!-- <div class="col-4">
                   от 430 руб
-               </div>
+               </div> -->
             </div>
             <div class="d-flex table-price">
                <div class="col-8">
                   3. Утепление потолка
                </div>
-               <div class="col-4">
+               <!-- <div class="col-4">
                   от 380 руб
-               </div>
+               </div> -->
             </div>
             <div class="d-flex table-price">
                <div class="col-8">
                   4. Встроенная мебель
                </div>
-               <div class="col-4">
+               <!-- <div class="col-4">
                   от 2500 руб
-               </div>
+               </div> -->
             </div>
             <div class="d-flex table-price">
                <div class="col-8">
                   5. Отделка стен
                </div>
-               <div class="col-4">
+               <!-- <div class="col-4">
                   от 390 руб
-               </div>
+               </div> -->
             </div>
             <div class="d-flex table-price">
                <div class="col-8">
                   6. Утепление стен
                </div>
-               <div class="col-4">
+               <!-- <div class="col-4">
                   от 310 руб
-               </div>
+               </div> -->
             </div>
             <div class="d-flex table-price">
                <div class="col-8">
                   7. Усиление парапета
                </div>
-               <div class="col-4">
+               <!-- <div class="col-4">
                   от 250 руб
-               </div>
+               </div> -->
             </div>
             <div class="d-flex table-price">
                <div class="col-8">
                   8. Отделка пола
                </div>
-               <div class="col-4">
+               <!-- <div class="col-4">
                   от 420 руб
-               </div>
+               </div> -->
             </div>
             <div class="d-flex table-price">
                <div class="col-8">
                   9. Утепление пола
                </div>
-               <div class="col-4">
+               <!-- <div class="col-4">
                   от 450 руб
-               </div>
+               </div> -->
+            </div>
+            <div class="profile-price mt-5 mb-3">
+               <a class="btn-round bg-pink shadow-custom w-100" href="#" data-toggle="modal" data-target="#modalCallback">Узнать цену по акции</a>
             </div>
          </div>
          <div class="col-lg-6 balkon-warm-img">
