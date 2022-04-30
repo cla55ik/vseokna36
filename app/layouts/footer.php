@@ -13,7 +13,7 @@
           <button class="btn-footer" type="button" name="btn-footer-price" data-toggle="modal" data-target="#modalCallback">Бесплатный замер</button>
         </div>
         <div class="col-lg-4 text-lg-end pb-30">
-          <a class="white title-36" href="tel:<?= $contacts['tel_link']; ?>"><?= $contacts['tel']; ?></a>
+          <a class="white title-36 d-block" href="tel:<?= $contacts['tel_link']; ?>"><?= $contacts['tel']; ?></a>
           <a class="white text-20 text-end w-100" href="#" data-toggle="modal" data-target="#modalCallback">Заказать звонок</a>
           <p class="white mt-4 d-block d-lg-none"><?= $contacts['address']; ?></p>
           <a class="white d-block d-lg-none" href="mailto:<?= $contacts['mail']; ?>"><?= $contacts['mail']; ?></a>
