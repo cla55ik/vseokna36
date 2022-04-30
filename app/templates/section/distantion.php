@@ -10,7 +10,7 @@
     </div>
     <div class="text-16 font-weight-bold white" id="novalid_dist">
     </div>
-    <form id="form_cta_dist" class="form-cta-dist hirizontal-form w-60 pt-5" onsubmit="senderForm('dist');ym(80932084,'reachGoal','callme')">
+    <form id="form_cta_dist" class="form-cta-dist hirizontal-form w-60 pt-5" onsubmit="senderForm('dist');ym(36280365,'reachGoal','callme')">
       <div class="form-text mt-3">
         <input class="name-dist w-100" type="text" name="name" value="" placeholder="Имя">
       </div>

@@ -127,7 +127,7 @@ var calc = new Vue({
 
                 }).then(response => {
                     this.sendDone = response.data;
-
+                    ym(36280365, 'reachGoal', 'callme')
 
                     return this.sendDone;
 

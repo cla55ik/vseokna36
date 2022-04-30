@@ -33,9 +33,6 @@
             <img src="<?=$profile['adv_3_img'];  ?>" alt="Преимущества пластиковых окон <?= $profile['adv_1_text'];  ?>">
             <span><?= $profile['adv_3_text'];  ?></span>
           </div>
-          <!-- <div class="profile-price mt-4 mb-3">
-            <a class="btn-round bg-pink shadow-custom w-100" href="#" data-toggle="modal" data-target="#modalCallback">Узнать цену по акции</a>
-          </div> -->
         </div>
       </div>
 

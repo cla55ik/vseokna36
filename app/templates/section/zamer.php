@@ -6,7 +6,7 @@
       </div>
       <div class="text-16 font-weight-bold white" id="novalid_zamer">
       </div>
-      <form id="form_cta_zamer" class="form-inline" onsubmit="senderForm('zamer');ym(80932084,'reachGoal','callme')">
+      <form id="form_cta_zamer" class="form-inline" onsubmit="senderForm('zamer');ym(36280365,'reachGoal','callme')">
         <div class="d-flex flex-wrap zamer-form">
           <div class="col-12 col-lg-4">
             <input class="phone" type="text" name="name" value="" placeholder="Имя">

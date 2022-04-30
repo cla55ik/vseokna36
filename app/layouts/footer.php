@@ -87,16 +87,16 @@
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
-<script src="/src/js/jquery.min.js"></script>
-<script src="/src/js/bootstrap.min.js"></script>
-<script src="/src/js/axios.min.js"></script>
+<!-- <script src="/src/js/jquery.min.js"></script> -->
+<!-- <script src="/src/js/bootstrap.min.js"></script> -->
+<!-- <script src="/src/js/axios.min.js"></script> -->
 <script src="/src/js/maskedinput.js"></script>
 <script src="/src/js/main.js"></script>
 <script src="/src/js/calc.js"></script>
 <!-- Yandex.Metrika counter -->
 <script defer type="text/javascript" src="/src/js/yametrika.js"></script>
 <noscript>
-  <div><img src="https://mc.yandex.ru/watch/80932084" style="position:absolute; left:-9999px;" alt="" /></div>
+  <div><img src="https://mc.yandex.ru/watch/36280365" style="position:absolute; left:-9999px;" alt="" /></div>
 </noscript>
 <!-- /Yandex.Metrika counter -->
 </body>
